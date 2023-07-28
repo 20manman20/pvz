@@ -1,0 +1,1 @@
+if other.push x_ = x_ + lerp(1,0,0.1)

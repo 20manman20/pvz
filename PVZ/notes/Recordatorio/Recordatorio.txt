@@ -1,0 +1,3 @@
+Quitar lo rojo del arco del rabo de gato
+Cuando los zombis se congelan también detienen su acción
+El color azul de los zombis congelados es tan intenso como el tiempo que falta para que se descongele

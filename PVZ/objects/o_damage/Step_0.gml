@@ -1,0 +1,1 @@
+if x >= room_width + sprite_height instance_destroy()

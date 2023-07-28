@@ -1,0 +1,1 @@
+instance_create_depth(o_cntrl.bg_x+cas_x*o_cntrl.cas_l+10, o_cntrl.bg_y+cas_y*o_cntrl.cas_l+16,depth+1,prtdr_obj)

@@ -1,0 +1,7 @@
+draw_set_font(P_Z_info)
+draw_set_color(c_white)
+draw_rectangle(text_x[0]-10,35,text_x[0]+120,65,false)
+draw_rectangle(text_x[1]-10,35,text_x[1]+120,65,false)
+draw_set_color(c_black)
+draw_text_transformed(text_x[0],50,name[0], 0.5, 0.5, 0)
+draw_text_transformed(text_x[1],50,name[1], 0.5, 0.5, 0)

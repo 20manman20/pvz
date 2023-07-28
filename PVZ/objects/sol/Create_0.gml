@@ -1,0 +1,9 @@
+//vspeed = -0.5
+alarm[0]		= 30
+run				= false
+//image_xscale = 1.5
+//image_yscale = 1.5
+alphay			= y-40
+distance		= distance_to_point(80,15)
+value			= 25
+creation_type	= "Planta"

@@ -1,0 +1,1 @@
+instance_create_depth(60,60,depth,o_player)

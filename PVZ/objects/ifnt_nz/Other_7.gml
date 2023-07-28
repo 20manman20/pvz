@@ -1,0 +1,1 @@
+sprite_index = s_nz_idle_02

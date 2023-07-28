@@ -1,0 +1,15 @@
+- 17/06/2020
+	12:54 p.m.: El junco no detecta del todo bien a los zombis, pienso que lo más probable es que sea por la 
+	mala ejecución de las colisiones rectangulares. (X.0.0)
+	01:02 p.m.: Extrañamente, tanto tumba como campamento funcionan a la perfección, de todos modos revisaré
+	el código por si encuentro algo.
+	01:15 p.m.: Al final si había un error, era bastante sencillo de arreglar pero era notorio, básicamente
+	cuando lo ponias en el estado de invocar un zombi y no te alcanza aún así la tumba sumaba num_zombie.
+	01:31 p.m.: Agregué el efecto de las hordas en las tumbas y pues queda bien, las probabilidad son así:
+		70% Zombi Básico	
+		25% Caracono	
+		5%	Caracubo
+	03:30 p.m.: Corregí la coltapulta, ahora lanza el col desde su rabito, siento que lo lanza muy rápido y
+	alto, veré como arreglo eso luego de hacer un par de cosas.
+	10:09 p.m.: Buenas noticias, implementé el sistema de elegir cartas, solo falta poder aumentar y disminuir
+	la cantidad de cartas.

@@ -1,0 +1,3 @@
+- 17/06/2020:
+	X.0.0. Junco: No detecta del todo bien a los zombis cercanos a él.
+		X.0.1. Esto podría ser por el método de colisión impuesto. 

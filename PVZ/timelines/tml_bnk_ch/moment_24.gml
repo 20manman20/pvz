@@ -1,0 +1,1 @@
+sprite_index = s_bnk_ch_idle
