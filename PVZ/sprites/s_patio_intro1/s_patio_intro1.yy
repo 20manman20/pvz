@@ -144,7 +144,7 @@
             {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"effe3f63-ad2f-4cee-a32c-3a14cd365873","path":"sprites/s_patio_intro1/s_patio_intro1.yy",},},},"Disabled":false,"id":"47f02b58-c0b7-4693-8b06-fa93d70f4b7c","IsCreationKey":false,"Key":43.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
-    "visibleRange": {"x":0.0,"y":0.0,},
+    "visibleRange": null,
     "volume": 1.0,
     "xorigin": 4,
     "yorigin": 4,

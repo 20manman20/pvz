@@ -59,7 +59,7 @@
             {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"17a3ac3c-9441-4edf-9157-2b2f6dbde478","path":"sprites/s_spc_cart_z_UI/s_spc_cart_z_UI.yy",},},},"Disabled":false,"id":"5e799575-6e33-4df0-b268-f1a77c202039","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
-    "visibleRange": {"x":0.0,"y":0.0,},
+    "visibleRange": null,
     "volume": 1.0,
     "xorigin": 11,
     "yorigin": 12,

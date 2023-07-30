@@ -63,7 +63,7 @@
             {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"737c4f57-24ec-4000-927c-b761b48ecfca","path":"sprites/s_patio12/s_patio12.yy",},},},"Disabled":false,"id":"52c4c72f-1538-4aca-b292-5bdd1afa3fb8","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
-    "visibleRange": {"x":0.0,"y":0.0,},
+    "visibleRange": null,
     "volume": 1.0,
     "xorigin": 148,
     "yorigin": 51,

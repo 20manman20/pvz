@@ -57,7 +57,7 @@
             {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"c91500bc-95ca-42cf-8b17-5695bdfe8b55","path":"sprites/spc_carta_count_z_00_00/spc_carta_count_z_00_00.yy",},},},"Disabled":false,"id":"cb7b76b5-d7cf-4315-aee3-0686260d4a83","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
-    "visibleRange": {"x":0.0,"y":0.0,},
+    "visibleRange": null,
     "volume": 1.0,
     "xorigin": 19,
     "yorigin": 22,

@@ -60,7 +60,7 @@
             {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"a84b08b1-51cf-400f-876a-3f8caa817673","path":"sprites/s_tipo_de_cartas/s_tipo_de_cartas.yy",},},},"Disabled":false,"id":"37beb4d6-1435-4c0c-af68-e50a809b6de3","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
-    "visibleRange": {"x":0.0,"y":0.0,},
+    "visibleRange": null,
     "volume": 1.0,
     "xorigin": 0,
     "yorigin": 0,

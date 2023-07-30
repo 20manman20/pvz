@@ -84,7 +84,7 @@
             {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"6fc53701-d088-4f3d-b5cb-e18af37b0670","path":"sprites/s_lnz_pltn_x/s_lnz_pltn_x.yy",},},},"Disabled":false,"id":"5ba22a0c-b980-4e05-846b-ad4f194f2ba2","IsCreationKey":false,"Key":13.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
-    "visibleRange": {"x":0.0,"y":0.0,},
+    "visibleRange": null,
     "volume": 1.0,
     "xorigin": 12,
     "yorigin": 20,

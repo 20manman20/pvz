@@ -78,7 +78,7 @@
             {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"25710747-0cd6-4b9f-bde9-3b7e1373f207","path":"sprites/s_ctus_x/s_ctus_x.yy",},},},"Disabled":false,"id":"f8c116a4-7ea4-4020-961c-1da9cc8bc377","IsCreationKey":false,"Key":10.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
-    "visibleRange": {"x":0.0,"y":0.0,},
+    "visibleRange": null,
     "volume": 1.0,
     "xorigin": 11,
     "yorigin": 19,

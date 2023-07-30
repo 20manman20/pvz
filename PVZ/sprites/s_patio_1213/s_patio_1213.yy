@@ -71,7 +71,7 @@
             {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"1d5232ab-623d-4b86-be65-079f7d0a10e7","path":"sprites/s_patio_1213/s_patio_1213.yy",},},},"Disabled":false,"id":"82a0a951-655f-447e-8572-e8cf4a0d9fa0","IsCreationKey":false,"Key":5.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
-    "visibleRange": {"x":0.0,"y":0.0,},
+    "visibleRange": null,
     "volume": 1.0,
     "xorigin": 140,
     "yorigin": 130,

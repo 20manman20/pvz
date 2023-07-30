@@ -66,7 +66,7 @@
             {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"1ddda6b1-6bb8-4147-ac0f-2083c81bf443","path":"sprites/s_lzg_g_fx_0/s_lzg_g_fx_0.yy",},},},"Disabled":false,"id":"f4956dc9-2383-41a8-9db0-be400f89ed3b","IsCreationKey":false,"Key":4.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
-    "visibleRange": {"x":0.0,"y":0.0,},
+    "visibleRange": null,
     "volume": 1.0,
     "xorigin": 5,
     "yorigin": 5,

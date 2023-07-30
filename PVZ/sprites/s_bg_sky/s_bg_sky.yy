@@ -57,7 +57,7 @@
             {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"4a281190-7882-4f36-a6ea-8efc27ebf2e8","path":"sprites/s_bg_sky/s_bg_sky.yy",},},},"Disabled":false,"id":"8f61f034-dd0c-40b1-a91d-5d4e5c6aa1ea","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
-    "visibleRange": {"x":0.0,"y":0.0,},
+    "visibleRange": null,
     "volume": 1.0,
     "xorigin": 228,
     "yorigin": 132,

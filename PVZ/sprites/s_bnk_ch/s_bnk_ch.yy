@@ -77,7 +77,7 @@
             {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"3bf3564d-2816-40a8-b320-48fa315948ee","path":"sprites/s_bnk_ch/s_bnk_ch.yy",},},},"Disabled":false,"id":"abb2651b-76cd-405d-a4b8-7d61e2d83a0e","IsCreationKey":false,"Key":10.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
-    "visibleRange": {"x":0.0,"y":0.0,},
+    "visibleRange": null,
     "volume": 1.0,
     "xorigin": 10,
     "yorigin": 19,

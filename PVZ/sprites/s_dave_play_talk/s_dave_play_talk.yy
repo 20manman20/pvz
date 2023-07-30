@@ -63,7 +63,7 @@
             {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"e1fa2362-5669-4c3c-8231-3d836a6be57b","path":"sprites/s_dave_play_talk/s_dave_play_talk.yy",},},},"Disabled":false,"id":"c15dd746-2f3a-4743-9e27-b19133f04427","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
-    "visibleRange": {"x":0.0,"y":0.0,},
+    "visibleRange": null,
     "volume": 1.0,
     "xorigin": 19,
     "yorigin": 47,

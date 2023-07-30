@@ -108,7 +108,7 @@
             {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"eb8cccd7-0924-43fe-98d9-efa274857f2b","path":"sprites/s_lzg_x/s_lzg_x.yy",},},},"Disabled":false,"id":"6c6304c5-c594-4c6f-9735-3153400cffc9","IsCreationKey":false,"Key":25.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
-    "visibleRange": {"x":0.0,"y":0.0,},
+    "visibleRange": null,
     "volume": 1.0,
     "xorigin": 11,
     "yorigin": 20,

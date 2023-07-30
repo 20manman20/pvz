@@ -59,7 +59,7 @@
             {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"ae2a130e-08ba-498a-9dd9-92dda3522f2f","path":"sprites/s_ftb/s_ftb.yy",},},},"Disabled":false,"id":"5bba25a5-026d-47a4-a865-5413d1c447bf","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
-    "visibleRange": {"x":0.0,"y":0.0,},
+    "visibleRange": null,
     "volume": 1.0,
     "xorigin": 13,
     "yorigin": 24,

@@ -57,7 +57,7 @@
             {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"d4cbe658-b109-4780-8162-a30a2bdc17d6","path":"sprites/spc_carta_shadow/spc_carta_shadow.yy",},},},"Disabled":false,"id":"3575d664-93f3-4718-8f5a-10ff648aa3eb","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
-    "visibleRange": {"x":0.0,"y":0.0,},
+    "visibleRange": null,
     "volume": 1.0,
     "xorigin": 19,
     "yorigin": 23,

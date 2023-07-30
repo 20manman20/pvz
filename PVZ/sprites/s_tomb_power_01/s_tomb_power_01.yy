@@ -65,7 +65,7 @@
             {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"9ee11c60-2170-426a-8316-bf36f48634e8","path":"sprites/s_tomb_power_01/s_tomb_power_01.yy",},},},"Disabled":false,"id":"926fcc12-22f2-4912-bde0-3a0c0c5945fb","IsCreationKey":false,"Key":4.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
-    "visibleRange": {"x":0.0,"y":0.0,},
+    "visibleRange": null,
     "volume": 1.0,
     "xorigin": 32,
     "yorigin": 34,

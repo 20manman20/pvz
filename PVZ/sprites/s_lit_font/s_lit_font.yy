@@ -215,7 +215,7 @@
             {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"28c75404-6323-4574-86a5-db23000ad7ea","path":"sprites/s_lit_font/s_lit_font.yy",},},},"Disabled":false,"id":"34479bf6-13aa-45e1-863d-3029f10564a6","IsCreationKey":false,"Key":78.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
-    "visibleRange": {"x":0.0,"y":0.0,},
+    "visibleRange": null,
     "volume": 1.0,
     "xorigin": 0,
     "yorigin": 0,

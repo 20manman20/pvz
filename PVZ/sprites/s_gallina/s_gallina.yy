@@ -59,7 +59,7 @@
             {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"035a68c8-65e6-43e6-9de6-780eea100895","path":"sprites/s_gallina/s_gallina.yy",},},},"Disabled":false,"id":"de7faa71-96f7-471f-9382-0145efea1366","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
-    "visibleRange": {"x":0.0,"y":0.0,},
+    "visibleRange": null,
     "volume": 1.0,
     "xorigin": 7,
     "yorigin": 12,

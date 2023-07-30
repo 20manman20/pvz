@@ -67,7 +67,7 @@
             {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"69310a01-fe69-454a-97af-0d8d515e01ca","path":"sprites/s_bnk_ch_idle/s_bnk_ch_idle.yy",},},},"Disabled":false,"id":"1a4083c3-a654-4089-951f-2975bae27856","IsCreationKey":false,"Key":5.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
-    "visibleRange": {"x":0.0,"y":0.0,},
+    "visibleRange": null,
     "volume": 1.0,
     "xorigin": 10,
     "yorigin": 18,

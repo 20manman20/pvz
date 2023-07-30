@@ -66,7 +66,7 @@
             {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"eb2972f4-9ec1-465a-8893-7e8837ca6fd2","path":"sprites/s_nutrientes/s_nutrientes.yy",},},},"Disabled":false,"id":"0dad2999-c4d0-4525-8dcb-d12354b32a29","IsCreationKey":false,"Key":3.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
-    "visibleRange": {"x":0.0,"y":0.0,},
+    "visibleRange": null,
     "volume": 1.0,
     "xorigin": 0,
     "yorigin": 0,

@@ -57,7 +57,7 @@
             {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"6051a3ae-0ec7-406d-8593-aedceb44c265","path":"sprites/s_lzg_head_idle/s_lzg_head_idle.yy",},},},"Disabled":false,"id":"7915ca8e-526b-431f-8dac-9477ee5911a2","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
-    "visibleRange": {"x":0.0,"y":0.0,},
+    "visibleRange": null,
     "volume": 1.0,
     "xorigin": 5,
     "yorigin": 4,

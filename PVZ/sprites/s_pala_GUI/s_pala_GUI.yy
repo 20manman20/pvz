@@ -64,7 +64,7 @@
             {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"b6ff6c12-8413-4aca-828e-d3143469eb61","path":"sprites/s_pala_GUI/s_pala_GUI.yy",},},},"Disabled":false,"id":"81440d93-cafb-45e5-95ae-eaeedd9460b1","IsCreationKey":false,"Key":3.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
-    "visibleRange": {"x":0.0,"y":0.0,},
+    "visibleRange": null,
     "volume": 1.0,
     "xorigin": 0,
     "yorigin": 0,

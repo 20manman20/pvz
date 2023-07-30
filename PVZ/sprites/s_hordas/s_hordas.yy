@@ -65,7 +65,7 @@
             {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"605bbf52-2603-4f9b-856f-50d4fa789bb2","path":"sprites/s_hordas/s_hordas.yy",},},},"Disabled":false,"id":"46264841-06bc-4dd2-bd1e-7e2246d4a254","IsCreationKey":false,"Key":3.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
-    "visibleRange": {"x":0.0,"y":0.0,},
+    "visibleRange": null,
     "volume": 1.0,
     "xorigin": 60,
     "yorigin": 0,

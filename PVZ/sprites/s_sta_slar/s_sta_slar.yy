@@ -59,7 +59,7 @@
             {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"39f7fbf9-4c06-4fce-8bc5-056189d41775","path":"sprites/s_sta_slar/s_sta_slar.yy",},},},"Disabled":false,"id":"ebb7b6ac-9deb-4711-96d2-19e7f6e96e19","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
-    "visibleRange": {"x":0.0,"y":0.0,},
+    "visibleRange": null,
     "volume": 1.0,
     "xorigin": 8,
     "yorigin": 17,
