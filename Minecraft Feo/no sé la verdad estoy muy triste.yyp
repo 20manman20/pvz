@@ -43,6 +43,7 @@
     {"id":{"name":"o_render","path":"objects/o_render/o_render.yy",},},
     {"id":{"name":"s_dirt","path":"sprites/s_dirt/s_dirt.yy",},},
     {"id":{"name":"some_functions","path":"scripts/some_functions/some_functions.yy",},},
+    {"id":{"name":"Sprite13","path":"sprites/Sprite13/Sprite13.yy",},},
     {"id":{"name":"s_player","path":"sprites/s_player/s_player.yy",},},
     {"id":{"name":"o_sand","path":"objects/o_sand/o_sand.yy",},},
     {"id":{"name":"s_cube_mask","path":"sprites/s_cube_mask/s_cube_mask.yy",},},
