@@ -1,6 +1,6 @@
 globalvar cam_index, z_level, cam_angle;
 
-cam_index	= 0
+cam_index	= 8
 cam_angle	= 0
 
 z_level	= -64

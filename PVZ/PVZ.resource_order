@@ -284,6 +284,7 @@
     {"name":"lnz_mz","order":1,"path":"objects/lnz_mz/lnz_mz.yy",},
     {"name":"lnz_mz_mz","order":3,"path":"objects/lnz_mz_mz/lnz_mz_mz.yy",},
     {"name":"lnz_mz_btter","order":5,"path":"objects/lnz_mz_btter/lnz_mz_btter.yy",},
+    {"name":"Sprite219","order":63,"path":"sprites/Sprite219/Sprite219.yy",},
     {"name":"lnz_mz_btter_x","order":7,"path":"objects/lnz_mz_btter_x/lnz_mz_btter_x.yy",},
     {"name":"bc_drgn","order":3,"path":"objects/bc_drgn/bc_drgn.yy",},
     {"name":"bc_drgn_fire","order":5,"path":"objects/bc_drgn_fire/bc_drgn_fire.yy",},
