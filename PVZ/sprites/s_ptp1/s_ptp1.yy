@@ -70,7 +70,7 @@
             {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"08c61f33-503f-450a-a25b-71208ad7375f","path":"sprites/s_ptp1/s_ptp1.yy",},},},"Disabled":false,"id":"17a5049d-5f42-48f5-948a-82549c1fec6a","IsCreationKey":false,"Key":5.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
-    "visibleRange": {"x":0.0,"y":0.0,},
+    "visibleRange": null,
     "volume": 1.0,
     "xorigin": 14,
     "yorigin": 23,

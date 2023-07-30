@@ -108,7 +108,7 @@
             {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"824f087e-68cc-4349-853d-068641c3a52e","path":"sprites/s_rpt_x/s_rpt_x.yy",},},},"Disabled":false,"id":"c6ac6646-af6e-4aaa-911f-e9fb52d4e4c5","IsCreationKey":false,"Key":25.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
-    "visibleRange": {"x":0.0,"y":0.0,},
+    "visibleRange": null,
     "volume": 1.0,
     "xorigin": 11,
     "yorigin": 20,

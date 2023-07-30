@@ -81,7 +81,7 @@
             {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"5ebad83c-ac7c-41fb-9058-82bcbef3425e","path":"sprites/s_jnc_x_plus/s_jnc_x_plus.yy",},},},"Disabled":false,"id":"657c7494-e2dd-47aa-8483-7425fe0a4fb8","IsCreationKey":false,"Key":12.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
-    "visibleRange": {"x":0.0,"y":0.0,},
+    "visibleRange": null,
     "volume": 1.0,
     "xorigin": 8,
     "yorigin": 20,

@@ -99,7 +99,7 @@
             {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"d40a7be1-e059-41aa-9910-14726973214b","path":"sprites/spc_carta_count_0011/spc_carta_count_0011.yy",},},},"Disabled":false,"id":"9e8e55f7-997a-4f75-a0c1-9d1368dadbb6","IsCreationKey":false,"Key":19.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
-    "visibleRange": {"x":0.0,"y":0.0,},
+    "visibleRange": null,
     "volume": 1.0,
     "xorigin": 15,
     "yorigin": 33,

@@ -66,7 +66,7 @@
             {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"160b84b1-3bff-4e87-971b-aaed3d15134a","path":"sprites/s_cerca_power/s_cerca_power.yy",},},},"Disabled":false,"id":"5141cd92-250b-4311-8727-ee302f06bf18","IsCreationKey":false,"Key":4.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
-    "visibleRange": {"x":0.0,"y":0.0,},
+    "visibleRange": null,
     "volume": 1.0,
     "xorigin": 31,
     "yorigin": 34,

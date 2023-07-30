@@ -71,7 +71,7 @@
             {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"73c7165c-d887-4b3d-ba94-4e122c1a4cd6","path":"sprites/s_mazo_GUI/s_mazo_GUI.yy",},},},"Disabled":false,"id":"e39e978f-35e2-44ad-8d4b-f6dc4b7f5822","IsCreationKey":false,"Key":6.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
-    "visibleRange": {"x":0.0,"y":0.0,},
+    "visibleRange": null,
     "volume": 1.0,
     "xorigin": 23,
     "yorigin": 0,

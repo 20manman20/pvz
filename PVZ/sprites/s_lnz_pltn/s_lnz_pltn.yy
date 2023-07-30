@@ -74,7 +74,7 @@
             {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"db436512-1085-4bff-b87c-69ab5f2d5420","path":"sprites/s_lnz_pltn/s_lnz_pltn.yy",},},},"Disabled":false,"id":"38d819f8-72c7-4bcb-9706-51680612e4d3","IsCreationKey":false,"Key":8.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
-    "visibleRange": {"x":0.0,"y":0.0,},
+    "visibleRange": null,
     "volume": 1.0,
     "xorigin": 12,
     "yorigin": 20,

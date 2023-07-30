@@ -63,7 +63,7 @@
             {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"905d4862-96dc-484c-bcea-1fb5452a1bae","path":"sprites/s_dave_lzg/s_dave_lzg.yy",},},},"Disabled":false,"id":"21e2b63e-84e4-4b87-b6c5-e331984be33f","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
-    "visibleRange": {"x":0.0,"y":0.0,},
+    "visibleRange": null,
     "volume": 1.0,
     "xorigin": 39,
     "yorigin": 94,
