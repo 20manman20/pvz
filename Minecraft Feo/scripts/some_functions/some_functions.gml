@@ -1,5 +1,7 @@
-#macro	CENTER_X	(room_width/2*power(128,.5)/16)
-#macro	CENTER_Y	(room_height/2*power(128,.5)/16)
+#macro	CENTER_X		(room_width/2*power(128,.5)/16)
+#macro	CENTER_Y		(room_height/2*power(128,.5)/16)
+
+#macro	CAMERA_UP		(-cam_angle+45)
 
 function sc_iso_construction(layer_name, object, z_coor) {
 	layer_set_visible(layer_name,false)
