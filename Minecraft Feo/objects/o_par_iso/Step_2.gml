@@ -1,4 +1,3 @@
-
 dd		= -coory[cam_index]	- 100000
 
 var cam		= cam_angle+45
