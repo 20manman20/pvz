@@ -34,12 +34,9 @@
   ],
   "solid": false,
   "spriteId": {
-    "name": "s_sand",
-    "path": "sprites/s_sand/s_sand.yy",
+    "name": "s_dirt",
+    "path": "sprites/s_dirt/s_dirt.yy",
   },
-  "spriteMaskId": {
-    "name": "s_cube_mask",
-    "path": "sprites/s_cube_mask/s_cube_mask.yy",
-  },
+  "spriteMaskId": null,
   "visible": true,
 }

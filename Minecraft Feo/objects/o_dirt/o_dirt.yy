@@ -34,12 +34,12 @@
   ],
   "solid": false,
   "spriteId": {
-    "name": "s_dirt",
-    "path": "sprites/s_dirt/s_dirt.yy",
+    "name": "s_grass_big",
+    "path": "sprites/s_grass_big/s_grass_big.yy",
   },
   "spriteMaskId": {
-    "name": "s_cube_mask",
-    "path": "sprites/s_cube_mask/s_cube_mask.yy",
+    "name": "s_dirt15",
+    "path": "sprites/s_dirt15/s_dirt15.yy",
   },
   "visible": true,
 }

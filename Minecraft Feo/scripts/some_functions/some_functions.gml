@@ -28,8 +28,8 @@ function sc_iso_construction(layer_name, object, z_coor) {
 			tile_z		= tile_data[TILE.Z]
 		
 			if tile_index < 9 && tile_index > 0 {
-				if tile_index == 1 var tile_o	= instance_create_depth(tx*16,ty*16,depth,o_dirt)
-				else var tile_o	= instance_create_depth(tx*16,ty*16,depth,o_sand)
+				if tile_index == 1 var tile_o	= instance_create_depth(tx*CEL_W,ty*CEL_W,depth,o_dirt)
+				else var tile_o	= instance_create_depth(tx*CEL_W,ty*CEL_W,depth,o_dirt)
 				tile_o.z	= z_coor
 				with tile_o {
 					event_user(0)
@@ -49,8 +49,8 @@ function place_meeting_3d(_x,_y,_z,_obj) {
 
 	if target_i > 0	{
 		for (var i = 0; i < target_i; ++i) {
-			if rectangle_in_rectangle(0,target_ds[| i].z,1,target_ds[| i].z-16,
-				0, _z-1,1,_z-16) {
+			if rectangle_in_rectangle(0,target_ds[| i].z,1,target_ds[| i].z-CEL_W,
+				0, _z-1,1,_z-CEL_W) {
 				xymeeting	= target_ds[| i]
 				break
 			} else {

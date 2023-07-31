@@ -1,5 +1,6 @@
-if place_meeting_3d(x,y,z-1,o_dirt) image_index = 1
+image_index	+= (x/16 + y/16 + z/16) mod 2
 
+/*
 if z >= 0 && z <= 64 {
 	var _cube = instance_create_depth(x,y,depth,o_stone)
 	_cube.z	= z+16

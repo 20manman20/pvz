@@ -1,5 +1,9 @@
-if place_meeting_3d(x,y,z-1,o_dirt) image_index = 1
 
+image_index	= -z/CEL_W
+
+if place_meeting_3d(x,y,z-1,o_dirt) || place_meeting_3d(x,y,z-1,o_sand) sprite_index = s_dirt_big
+
+/*
 if z >= 0 && z <= 64 {
 	var _cube = instance_create_depth(x,y,depth,o_stone)
 	_cube.z	= z+16

@@ -38,8 +38,8 @@
     "path": "sprites/s_stone/s_stone.yy",
   },
   "spriteMaskId": {
-    "name": "s_cube_mask",
-    "path": "sprites/s_cube_mask/s_cube_mask.yy",
+    "name": "s_dirt15",
+    "path": "sprites/s_dirt15/s_dirt15.yy",
   },
   "visible": true,
 }

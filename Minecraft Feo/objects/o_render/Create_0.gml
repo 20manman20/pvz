@@ -4,8 +4,8 @@ enum TILE {
 }
 
 
-#macro MAP_W		120
-#macro MAP_H		100
+#macro MAP_W		60
+#macro MAP_H		40
 
 globalvar the_map, max_z_layer;
 
@@ -14,5 +14,6 @@ max_z_layer	= 7
 
 for (var i = 0; i < max_z_layer; ++i) {
 	var lay_string	= "Tiles_" + string(i)
-	sc_iso_construction(lay_string,o_dirt,-i*16)
+	sc_iso_construction(lay_string,o_dirt,-i*CEL_W)
 }
+

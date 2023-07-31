@@ -1,2 +1,1 @@
-angle_r	= (angle_r+90+360)%360
-cam_index	=  (cam_index + 8) % 64
+angle_r	= (angle_r+cam_ang_change+360)%360
