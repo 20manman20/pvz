@@ -9,6 +9,7 @@
     {"name":"o_game","order":4,"path":"objects/o_game/o_game.yy",},
     {"name":"o_render","order":5,"path":"objects/o_render/o_render.yy",},
     {"name":"s_dirt","order":8,"path":"sprites/s_dirt/s_dirt.yy",},
+    {"name":"Sprite13","order":14,"path":"sprites/Sprite13/Sprite13.yy",},
     {"name":"s_player","order":11,"path":"sprites/s_player/s_player.yy",},
     {"name":"o_sand","order":2,"path":"objects/o_sand/o_sand.yy",},
     {"name":"s_cube_mask","order":1,"path":"sprites/s_cube_mask/s_cube_mask.yy",},
