@@ -4,7 +4,7 @@ var spd_bol	= mouse_check_button(mb_left)
 var spd_dir	= point_direction(drawx,drawy+z/2,mouse_x,mouse_y)
 
 hsp	= 0
-vsp	= -1
+vsp	= 0
 
 var _val	= CEL_W*CEL_W/2
 

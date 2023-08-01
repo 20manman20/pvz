@@ -2,10 +2,7 @@
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
   "name": "o_dirt",
-  "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":false,},
-  ],
+  "eventList": [],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
@@ -34,8 +31,8 @@
   ],
   "solid": false,
   "spriteId": {
-    "name": "s_grass_big",
-    "path": "sprites/s_grass_big/s_grass_big.yy",
+    "name": "s_grass_big1315",
+    "path": "sprites/s_grass_big1315/s_grass_big1315.yy",
   },
   "spriteMaskId": {
     "name": "s_dirt15",

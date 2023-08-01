@@ -17,3 +17,4 @@ for (var i = 0; i < max_z_layer; ++i) {
 	sc_iso_construction(lay_string,o_dirt,-i*CEL_W)
 }
 
+alarm[0]	= 1
