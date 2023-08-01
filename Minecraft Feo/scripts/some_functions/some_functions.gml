@@ -1,7 +1,7 @@
 #macro	CENTER_X		(room_width/2*power(128,.5)/16)
 #macro	CENTER_Y		(room_height/2*power(128,.5)/16)
 
-#macro	CAMERA_UP		(-cam_angle+45)
+#macro	CAMERA_UP		(-cam_angle)
 
 function sc_iso_construction(layer_name, object, z_coor) {
 	layer_set_visible(layer_name,false)
@@ -11,10 +11,7 @@ function sc_iso_construction(layer_name, object, z_coor) {
 	for (var tx = 0; tx < MAP_W; ++tx) {
 	    for (var ty = 0; ty < MAP_H; ++ty) {
 			var tile_map_data		= tilemap_get(tile_map,tx,ty)
-			//formato [Sprite, Z]
-			var this_tile			= [-1,0]
-			this_tile[TILE.SPRITE]	= tile_map_data
-			this_tile[TILE.Z]		= irandom_range(-2,2)
+			var this_tile			= tile_map_data
 			the_map[# tx, ty]		= this_tile
 		
 		}
@@ -25,17 +22,10 @@ function sc_iso_construction(layer_name, object, z_coor) {
 	for (var tx	= 0; tx < MAP_W; tx++) {
 		for (var ty	= 0; ty < MAP_H; ty++) {
 			tile_data	= the_map[# tx, ty]
-
-			tile_index	= tile_data[TILE.SPRITE] 
-			tile_z		= tile_data[TILE.Z]
 		
-			if tile_index < 9 && tile_index > 0 {
-				if tile_index == 1 var tile_o	= instance_create_depth(tx*CEL_W,ty*CEL_W,depth,o_dirt)
-				else var tile_o	= instance_create_depth(tx*CEL_W,ty*CEL_W,depth,o_dirt)
-				tile_o.z	= z_coor
-				with tile_o {
-					event_user(0)
-				}
+			if tile_data < 9 && tile_data > 0 {
+				var tile_o		= instance_create_depth(tx*CEL_W,ty*CEL_W,depth,o_dirt)
+				tile_o.height_	= tile_data*24
 			}
 		}
 	}
@@ -51,8 +41,8 @@ function place_meeting_3d(_x,_y,_z,_obj) {
 
 	if target_i > 0	{
 		for (var i = 0; i < target_i; ++i) {
-			if rectangle_in_rectangle(0,target_ds[| i].z,1,target_ds[| i].z-CEL_W,
-				0, _z-1,1,_z-CEL_W) {
+			if rectangle_in_rectangle(0,target_ds[| i].z,1,target_ds[| i].z-target_ds[| i].height_,
+				0, _z-1,1,_z-height_) {
 				xymeeting	= target_ds[| i]
 				break
 			} else {
@@ -89,4 +79,9 @@ function lerp_angle(val1,val2, amount) {
 	val2 = val1-angle_diff
 
 	return lerp(val1, val2, amount);
+}
+
+function fdrawy(anglei) {
+	var _val	= CEL_W*CEL_W/2
+	return (axis_y(x*power(_val,.5)/CEL_W,y*power(_val,.5)/CEL_W,45+360/VIEW_NUM*anglei,330) + z/2 - height_/2)
 }

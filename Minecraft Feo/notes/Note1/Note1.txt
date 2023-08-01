@@ -1,0 +1,37 @@
+function sc_iso_construction(layer_name, object, z_coor) {
+	layer_set_visible(layer_name,false)
+
+	var tile_map	= layer_tilemap_get_id(layer_name)
+
+	for (var tx = 0; tx < MAP_W; ++tx) {
+	    for (var ty = 0; ty < MAP_H; ++ty) {
+			var tile_map_data		= tilemap_get(tile_map,tx,ty)
+			//formato [Sprite, Z]
+			var this_tile			= [-1,0]
+			this_tile[TILE.SPRITE]	= tile_map_data
+			this_tile[TILE.Z]		= irandom_range(-2,2)
+			the_map[# tx, ty]		= this_tile
+		
+		}
+	}
+
+	var tile_data, tile_index, tile_z
+	
+	for (var tx	= 0; tx < MAP_W; tx++) {
+		for (var ty	= 0; ty < MAP_H; ty++) {
+			tile_data	= the_map[# tx, ty]
+
+			tile_index	= tile_data[TILE.SPRITE] 
+			tile_z		= tile_data[TILE.Z]
+		
+			if tile_index < 9 && tile_index > 0 {
+				if tile_index == 1 var tile_o	= instance_create_depth(tx*CEL_W,ty*CEL_W,depth,o_dirt)
+				else var tile_o	= instance_create_depth(tx*CEL_W,ty*CEL_W,depth,o_dirt)
+				tile_o.z	= z_coor
+				with tile_o {
+					event_user(0)
+				}
+			}
+		}
+	}
+}

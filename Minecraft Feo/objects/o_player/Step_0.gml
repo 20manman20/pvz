@@ -3,17 +3,15 @@ var spd_bol	= mouse_check_button(mb_left)
 //var spd_dir	= point_direction(x,y,mouse_x,mouse_y)
 var spd_dir	= point_direction(drawx,drawy+z/2,mouse_x,mouse_y)
 
-hsp	= 0
-vsp	= -1
+hsp	= lengthdir_x(spd_bol,spd_dir)
+vsp	= lengthdir_y(spd_bol,spd_dir)
 
 var _val	= CEL_W*CEL_W/2
 
 drawx	= axis_x(x*power(_val,.5)/CEL_W,y*power(_val,.5)/CEL_W,45+360/VIEW_NUM*cam_index)
-drawy	= axis_y(x*power(_val,.5)/CEL_W,y*power(_val,.5)/CEL_W,45+360/VIEW_NUM*cam_index,330)
+drawy	= axis_y(x*power(_val,.5)/CEL_W,y*power(_val,.5)/CEL_W,45+360/VIEW_NUM*cam_index,330)+z/2-height_/2
 
-dd		= -drawy - 100000
-
-depth	= dd+z/2
+depth		= -drawy - 100000 + z/2 - height_/2-1
 
 if keyboard_check_pressed(vk_space) zsp	= -4
 
