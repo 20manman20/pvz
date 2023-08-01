@@ -1,0 +1,20 @@
+
+sh_texel_handle	= shader_get_uniform(sh_outline, "in_texel")
+spd				= [0,0]
+angle_spd		= 0
+angle_spd_max	= .9
+dis				= point_distance(CENTER_X,CENTER_Y,x,y)
+angle			= point_direction(CENTER_X,CENTER_Y,x,y)
+col				= random_range(0,255)
+
+spd_z	= 0
+ang_z	= 0
+
+
+
+state	= 0
+
+move_time	= 30
+blink_time	= 10
+
+instance_destroy()

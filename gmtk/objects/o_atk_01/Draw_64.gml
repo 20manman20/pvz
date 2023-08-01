@@ -1,0 +1,1 @@
+var im_angle	= (-angle - cam_angle + 720) % 360
