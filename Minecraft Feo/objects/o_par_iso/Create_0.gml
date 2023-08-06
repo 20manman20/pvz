@@ -4,6 +4,8 @@ coordd		= ds_list_create()
 
 color_off	= c_white
 
+image_index	= irandom_range(0,8)
+
 dd	= 0
 
 depth	= 10

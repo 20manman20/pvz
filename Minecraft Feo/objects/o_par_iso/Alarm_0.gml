@@ -4,7 +4,9 @@ for (var i = 0; i < _views+1; ++i) {
 	var _ind	= i*VIEW_NUM/_views
 	coorx[| _ind]		= axis_x(x*power(_val,.5)/CEL_W,y*power(_val,.5)/CEL_W,45+360/VIEW_NUM*_ind)
 	coory[| _ind]		= axis_y(x*power(_val,.5)/CEL_W,y*power(_val,.5)/CEL_W,45+360/VIEW_NUM*_ind,330) + z/2 - height_/2
-	coordd[| _ind]		= -coory[| _ind] - 100000 + z - height_/2
+	
+	var _y				= -axis_y(x*power(_val,.5)/CEL_W,y*power(_val,.5)/CEL_W,45+360/VIEW_NUM*_ind,330)
+	coordd[| _ind]		= _y*20 - 100000 + z
 }
 
 
