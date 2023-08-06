@@ -1,15 +1,15 @@
 {
   "resourceType": "GMRoom",
   "resourceVersion": "1.0",
-  "name": "Sala12",
+  "name": "rm_old",
   "creationCodeFile": "",
   "inheritCode": false,
   "inheritCreationOrder": false,
   "inheritLayers": false,
   "instanceCreationOrder": [
-    {"name":"inst_3AD81D91_1","path":"rooms/Sala12/Sala12.yy",},
-    {"name":"inst_3A000666_1","path":"rooms/Sala12/Sala12.yy",},
-    {"name":"inst_1DC4FBAE_1","path":"rooms/Sala12/Sala12.yy",},
+    {"name":"inst_3AD81D91_1","path":"rooms/rm_old/rm_old.yy",},
+    {"name":"inst_3A000666_1","path":"rooms/rm_old/rm_old.yy",},
+    {"name":"inst_1DC4FBAE_1","path":"rooms/rm_old/rm_old.yy",},
   ],
   "isDnd": false,
   "layers": [

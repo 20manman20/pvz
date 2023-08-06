@@ -1,5 +1,3 @@
-image_index	= choose(0,1)
-
 var _views	= 4
 for (var i = 0; i < _views+1; ++i) {
 	var _val	= CEL_W*CEL_W/2
@@ -20,7 +18,13 @@ for (var i = 0; i < VIEW_NUM+1; ++i) {
 	}
 }
 
-sprite_index = sprite_h[height_/24-1]
+if sprite_index == s_grass_00 {
+	image_index	= choose(0,1)
+	color_off	= make_color_hsv(0,25,255-((x/CEL_W + y/CEL_W) mod 2)*30)
+	sprite_index = sprite_h[height_/24-1]
+} else {
+	color_off	= make_color_hsv(25,35,235)
+}
 /*
 if z >= 0 && z <= 64 {
 	var _cube = instance_create_depth(x,y,depth,o_stone)

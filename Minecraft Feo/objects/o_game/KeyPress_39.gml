@@ -1,1 +1,0 @@
-angle_r	= (angle_r-cam_ang_change+360)%360

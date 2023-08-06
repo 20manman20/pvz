@@ -3,7 +3,7 @@ globalvar cam_index, z_level, cam_angle;
 #macro VIEW_NUM	240
 #macro CEL_W	24
 
-cam_angle		= 0
+cam_angle		= 90
 cam_index		= round(round(cam_angle)/(360/VIEW_NUM) % VIEW_NUM)
 
 

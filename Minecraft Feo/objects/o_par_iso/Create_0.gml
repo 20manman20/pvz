@@ -2,7 +2,7 @@ coorx		= ds_list_create()
 coory		= ds_list_create()
 coordd		= ds_list_create()
 
-color_off	= make_color_hsv(0,25,255-((x/CEL_W + y/CEL_W) mod 2)*60)
+color_off	= c_white
 
 dd	= 0
 
