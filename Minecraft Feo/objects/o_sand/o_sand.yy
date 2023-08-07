@@ -32,8 +32,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "s_dirt",
-    "path": "sprites/s_dirt/s_dirt.yy",
+    "name": "s_dirtdd",
+    "path": "sprites/s_dirtdd/s_dirtdd.yy",
   },
   "spriteMaskId": null,
   "visible": true,

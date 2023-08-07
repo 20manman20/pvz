@@ -29,8 +29,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "s_grass_00",
-    "path": "sprites/s_grass_00/s_grass_00.yy",
+    "name": "s_dirt",
+    "path": "sprites/s_dirt/s_dirt.yy",
   },
   "spriteMaskId": {
     "name": "s_dirt15",

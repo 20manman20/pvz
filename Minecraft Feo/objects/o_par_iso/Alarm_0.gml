@@ -1,12 +1,13 @@
 var _views	= 4
 for (var i = 0; i < _views+1; ++i) {
-	var _val	= CEL_W*CEL_W/2
 	var _ind	= i*VIEW_NUM/_views
-	coorx[| _ind]		= axis_x(x*power(_val,.5)/CEL_W,y*power(_val,.5)/CEL_W,45+360/VIEW_NUM*_ind)
-	coory[| _ind]		= axis_y(x*power(_val,.5)/CEL_W,y*power(_val,.5)/CEL_W,45+360/VIEW_NUM*_ind,330) + z/2 - height_/2
+	var _x		= axis_x(x,y,45+360/VIEW_NUM*_ind)
+	var _y		= axis_y(x,y,45+360/VIEW_NUM*_ind,330)
 	
-	var _y				= -axis_y(x*power(_val,.5)/CEL_W,y*power(_val,.5)/CEL_W,45+360/VIEW_NUM*_ind,330)
-	coordd[| _ind]		= _y*20 - 100000 + z
+	coorx[| _ind]		= _x
+	coory[| _ind]		= _y + z/2
+	
+	coordd[| _ind]		= round(axis_dd(x,y,45+360/VIEW_NUM*_ind))
 }
 
 
@@ -20,13 +21,11 @@ for (var i = 0; i < VIEW_NUM+1; ++i) {
 	}
 }
 
-if sprite_index == s_grass_00 {
-	image_index	= choose(0,1)
-	color_off	= make_color_hsv(0,25,255-((x/CEL_W + y/CEL_W) mod 2)*30)
-	sprite_index = sprite_h[height_/24-1]
-} else {
-	color_off	= make_color_hsv(25,35,235)
-}
+
+	color_off	= make_color_hsv((	0									+256) mod 256			//150
+								,(25									+256) mod 256			//+z
+								,(255-((x/CEL_W + y/CEL_W) mod 2)*30	+256) mod 256)
+
 /*
 if z >= 0 && z <= 64 {
 	var _cube = instance_create_depth(x,y,depth,o_stone)

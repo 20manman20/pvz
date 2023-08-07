@@ -13,7 +13,7 @@ depth	= 10
 alarm[0]	= 1
 
 sprite_h	= [s_grass_00,
-				s_grass_01,
+				s_dirt,
 				s_grass_02,
 				s_grass_03,
 				s_grass_04,

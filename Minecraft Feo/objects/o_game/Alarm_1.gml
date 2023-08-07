@@ -1,1 +1,3 @@
-//instance_create_depth(600,408,depth,o_player)
+for (var i = 0; i < 6; ++i) {
+	instance_create_depth(14.5*CEL_W,9.5*CEL_W+i*CEL_W,depth,o_player)
+}

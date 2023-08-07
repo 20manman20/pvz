@@ -1,8 +1,5 @@
 globalvar cam_index, z_level, cam_angle;
 
-#macro VIEW_NUM	240
-#macro CEL_W	24
-
 cam_angle		= 180
 cam_index		= round(round(cam_angle)/(360/VIEW_NUM) % VIEW_NUM)
 
@@ -22,7 +19,7 @@ cam_ang_change	= 90
 
 alarm[1]		= 1
 
-window_set_size(512*2,288*2)
+window_set_size(512*3,288*3)
 
 //128	0 32 64 96
 //64	0 16 32	48

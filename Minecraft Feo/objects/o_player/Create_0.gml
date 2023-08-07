@@ -1,4 +1,4 @@
-z	= -24*9
+z	= -CEL_W*9
 
 drawx	= 0
 drawy	= 0

@@ -55,14 +55,14 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"ea3b7d31-521a-4aaa-834a-87000fc1ef67","path":"sprites/s_grass_01/s_grass_01.yy",},},},"Disabled":false,"id":"66e19bdb-5491-4273-9d5d-0f5c0d9dd133","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"7fa798f8-e48a-41a9-9e33-fef3f9bee1b9","path":"sprites/s_grass_01/s_grass_01.yy",},},},"Disabled":false,"id":"af38cb4d-6c1a-4ab9-bcd7-bcb14f4b3915","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"ea3b7d31-521a-4aaa-834a-87000fc1ef67","path":"sprites/s_grass_01/s_grass_01.yy",},},},"Disabled":false,"id":"6e068637-9170-4879-aa59-b69f95bdb359","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"7fa798f8-e48a-41a9-9e33-fef3f9bee1b9","path":"sprites/s_grass_01/s_grass_01.yy",},},},"Disabled":false,"id":"f0de58ef-1d13-40e8-b094-46e0bed39a7c","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,
     "volume": 1.0,
     "xorigin": 12,
-    "yorigin": 18,
+    "yorigin": 30,
   },
   "swatchColours": null,
   "swfPrecision": 2.525,
