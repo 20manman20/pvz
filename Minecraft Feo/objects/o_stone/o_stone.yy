@@ -12,10 +12,7 @@
     "name": "Objetos",
     "path": "folders/Objetos.yy",
   },
-  "parentObjectId": {
-    "name": "o_par_iso",
-    "path": "objects/o_par_iso/o_par_iso.yy",
-  },
+  "parentObjectId": null,
   "persistent": false,
   "physicsAngularDamping": 0.1,
   "physicsDensity": 0.5,
@@ -36,8 +33,8 @@
     "path": "sprites/s_stone/s_stone.yy",
   },
   "spriteMaskId": {
-    "name": "s_dirt15",
-    "path": "sprites/s_dirt15/s_dirt15.yy",
+    "name": "s_cube_mask",
+    "path": "sprites/s_cube_mask/s_cube_mask.yy",
   },
   "visible": true,
 }

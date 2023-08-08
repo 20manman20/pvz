@@ -9,7 +9,7 @@ enum TILE {
 #macro	CENTER_Y		(room_height/2*INSQRT2)
 
 #macro	VIEW_NUM		240
-#macro	CEL_W			32
+#macro	CEL_W			24
 
 #macro	MAP_W			40
 #macro	MAP_H			24
