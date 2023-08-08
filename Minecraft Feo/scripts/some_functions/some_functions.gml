@@ -19,7 +19,7 @@ enum TILE {
 
 #macro	CAMERA_UP		(-cam_angle)
 
-function iso_construction(layer_name, object, z_coor) {
+function iso_construction(layer_name) {
 	layer_set_visible(layer_name,false)
 
 	var tile_map	= layer_tilemap_get_id(layer_name)
