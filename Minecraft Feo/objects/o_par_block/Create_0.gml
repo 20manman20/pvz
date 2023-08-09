@@ -4,7 +4,7 @@ drawx		= ds_list_create()
 drawy		= ds_list_create()
 drawdd		= ds_list_create()
 
-color_off	= c_white
+image_blend	= c_white
 
 image_index	= irandom_range(0,8)
 

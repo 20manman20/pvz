@@ -46,5 +46,5 @@
     "name": "s_mask",
     "path": "sprites/s_mask/s_mask.yy",
   },
-  "visible": true,
+  "visible": false,
 }

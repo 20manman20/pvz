@@ -22,9 +22,9 @@ for (var i = 0; i < VIEW_NUM+1; ++i) {
 }
 
 
-	color_off	= make_color_hsv((	0									+256) mod 256			//150
-								,(25									+256) mod 256			//+z
-								,(255-((x/CEL_W + y/CEL_W) mod 2)*30	+256) mod 256)
+image_blend	= make_color_hsv((	0									+256) mod 256			//150
+							,(25									+256) mod 256			//+z
+							,(255-((x/CEL_W + y/CEL_W) mod 2)*30	+256) mod 256)
 
 /*
 if z >= 0 && z <= 64 {
