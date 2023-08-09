@@ -1,5 +1,5 @@
 event_inherited()
-alarm[0]	= 3
+
 image_index	= irandom_range(0,image_number-1)
 
 sprite_i	= [	[s_peashooter_01, -1, 1],		//00

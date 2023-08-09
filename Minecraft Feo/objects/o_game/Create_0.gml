@@ -10,7 +10,7 @@ alarm[0]		= 1
 
 
 cam_angle_r		= (360/VIEW_NUM) * cam_index
-angle_spd		= 1
+angle_spd		= .2
 
 vecx			= lengthdir_x(1,cam_angle_r)
 vecy			= lengthdir_y(1,cam_angle_r)

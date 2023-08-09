@@ -1,4 +1,4 @@
-var _views	= 4
+var _views	= 60
 for (var i = 0; i < _views+1; ++i) {
 	var _ind	= i*VIEW_NUM/_views
 	var _x		= axis_x(x,y,45+360/VIEW_NUM*_ind)
