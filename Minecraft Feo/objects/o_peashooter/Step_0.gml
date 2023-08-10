@@ -1,6 +1,6 @@
 event_inherited()
 
-angle_z	= (angle_z+(mouse_wheel_down()-mouse_wheel_up())*90 + 360) % 360
+angle_z	= (angle_z+(keyboard_check_pressed(ord("A")) - keyboard_check_pressed(ord("D")))*90 + 360) % 360
 
 var _angle	= (cam_angle_r + angle_z + 360) % 360
 

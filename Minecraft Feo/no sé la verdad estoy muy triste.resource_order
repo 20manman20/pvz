@@ -30,6 +30,7 @@
     {"name":"s_dirt_big","order":11,"path":"sprites/s_dirt_big/s_dirt_big.yy",},
     {"name":"Sprite38","order":38,"path":"sprites/Sprite38/Sprite38.yy",},
     {"name":"s_mask","order":22,"path":"sprites/s_mask/s_mask.yy",},
+    {"name":"Sprite51","order":47,"path":"sprites/Sprite51/Sprite51.yy",},
     {"name":"Sprite48","order":3,"path":"sprites/Sprite48/Sprite48.yy",},
     {"name":"o_grass","order":9,"path":"objects/o_grass/o_grass.yy",},
     {"name":"Sprite26","order":24,"path":"sprites/Sprite26/Sprite26.yy",},

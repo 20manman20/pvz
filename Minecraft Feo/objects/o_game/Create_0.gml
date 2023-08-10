@@ -19,10 +19,45 @@ cam_ang_change	= 90
 
 alarm[1]		= 1
 
-window_set_size(512*3,288*3)
+
 
 //128	0 32 64 96
 //64	0 16 32	48
 
 seeds_i			= 0
 seeds_max		= 5
+
+cam_x			= 224
+cam_y			= 144
+cam_w			= 512
+cam_h			= 288
+
+window_set_size(512*3,288*3)
+
+/*
+plant[value,0]	= Objeto
+plant[value,1]	= Costo
+plant[value,2]	= Carga
+plant[value,3]	= Carga necesaria
+plant[value,4]	= Y offset
+plant[value,5]	= Ang offset
+*/
+
+enum pl {
+	obj,
+	cost,
+	loadf,
+	load,
+	y_,
+	ang
+	
+}
+
+for (var i = 0; i < seeds_max; ++i) {
+    plant[i,0]	= noone
+	plant[i,1]	= 100
+	plant[i,2]	= 4
+	plant[i,3]	= plant[i,2]
+	plant[i,4]	= 0
+	plant[i,5]	= 0
+}
