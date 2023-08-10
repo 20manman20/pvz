@@ -24,3 +24,5 @@ window_set_size(512*3,288*3)
 //128	0 32 64 96
 //64	0 16 32	48
 
+seeds_i			= 0
+seeds_max		= 5

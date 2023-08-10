@@ -6,4 +6,8 @@ cam_index		= round(round(cam_angle)/(360/VIEW_NUM) % VIEW_NUM)
 
 var	a_hinput	= keyboard_check_pressed(ord("A")) - keyboard_check_pressed(ord("D"))
 
-cam_angle_r			= (cam_angle_r+cam_ang_change*a_hinput+360)%360
+cam_angle_r		= (cam_angle_r+cam_ang_change*a_hinput+360)%360
+
+seeds_i			-= (mouse_wheel_down() - mouse_wheel_up())
+
+seeds_i			= (seeds_i + seeds_max) % seeds_max
