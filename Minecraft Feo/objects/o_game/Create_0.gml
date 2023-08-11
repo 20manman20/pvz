@@ -1,6 +1,6 @@
 globalvar cam_index, z_level, cam_angle, cam_angle_r;
 
-cam_angle		= 0
+cam_angle		= 270
 cam_index		= round(round(cam_angle)/(360/VIEW_NUM) % VIEW_NUM)
 
 
@@ -61,3 +61,7 @@ for (var i = 0; i < seeds_max; ++i) {
 	plant[i,4]	= 0
 	plant[i,5]	= 0
 }
+
+mx	= 0
+my	= 0
+mz	= 0
