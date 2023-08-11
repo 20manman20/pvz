@@ -6,6 +6,7 @@
     {"name":"s_fence_01","order":3,"path":"sprites/s_fence_01/s_fence_01.yy",},
     {"name":"Sprite3637","order":37,"path":"sprites/Sprite3637/Sprite3637.yy",},
     {"name":"s_grass_04","order":18,"path":"sprites/s_grass_04/s_grass_04.yy",},
+    {"name":"Sprite52","order":48,"path":"sprites/Sprite52/Sprite52.yy",},
     {"name":"rm_015","order":4,"path":"rooms/rm_015/rm_015.yy",},
     {"name":"rm_old","order":1,"path":"rooms/rm_old/rm_old.yy",},
     {"name":"s_dirt","order":16,"path":"sprites/s_dirt/s_dirt.yy",},
