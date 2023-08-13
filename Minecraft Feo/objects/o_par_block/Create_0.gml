@@ -6,6 +6,6 @@ drawdd		= ds_list_create()
 
 image_blend	= c_white
 
-image_index	= irandom_range(0,8)
+image_index	= irandom_range(0,image_number-2)
 
 alarm[0]	= 1
