@@ -19,35 +19,28 @@ enum TILE {
 
 #macro	CAMERA_UP		(-cam_angle)
 
-function iso_construction(layer_name) {
+function iso_construction(layer_name,_z) {
 	layer_set_visible(layer_name,false)
-
 	var tile_map	= layer_tilemap_get_id(layer_name)
 
-	for (var tx = 0; tx < MAP_W; ++tx) {
-	    for (var ty = 0; ty < MAP_H; ++ty) {
-			var tile_map_data		= tilemap_get(tile_map,tx,ty)
-			var this_tile			= tile_map_data
-			the_map[# tx, ty]		= this_tile
-		
-		}
-	}
-
-	var tile_data, tile_index, tile_z
+	var tile_data, tile_o, tile_index
 	
 	for (var tx	= 0; tx < MAP_W; tx++) {
 		for (var ty	= 0; ty < MAP_H; ty++) {
-			tile_data	= the_map[# tx, ty]
+			tile_index	= tilemap_get(tile_map,tx,ty)
+			tile_data	= tile_get_index(tile_index)
 		
-			if tile_data < 9 && tile_data > 0 {
-				for (var i = 0; i < tile_data; ++i) {
-					if i == (tile_data-1) {
-						var tile_o		= instance_create_depth((tx+.5)*CEL_W,(ty+.5)*CEL_W,depth,o_grass)
-					} else {
-						var tile_o		= instance_create_depth((tx+.5)*CEL_W,(ty+.5)*CEL_W,depth,o_dirt)
-					}
-					tile_o.z		= -i*CEL_W
+			for (var i = 0; i < tile_data; ++i) {
+				col_layer[_z][# tx, ty]	= tile_data
+				tile_o		= instance_create_depth((tx+.5)*CEL_W,(ty+.5)*CEL_W,depth,blocks[tile_data-1])
+				tile_o.z		= -_z*CEL_W
+				/*
+				tile_o		= instance_create_depth((tx+.5)*CEL_W,(ty+.5)*CEL_W,depth,blocks[tile_data-1])
+				if tile_get_mirror(tile_index) {
+					tile_o.angle_z = 180
 				}
+				tile_o.z		= -_z*CEL_W
+				*/
 			}
 		}
 	}

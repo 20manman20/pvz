@@ -22,25 +22,131 @@ switch (cam_angle_r) {
     case 0:
 		var _mx		= (mouse_y)/12+(mouse_x)/24 - 24
 		var _my		= (mouse_y)/12-(mouse_x)/24 + 8
-		
-		
+	
+		if col_layer[1][# _mx+2, _my+2] != 0 {
+			mx	= floor(_mx)+2
+			my	= floor(_my)+2
+			mz	= 2
+		} else {
+			if col_layer[1][# _mx+1, _my+1] != 0 {
+				mx	= floor(_mx)+1
+				my	= floor(_my)+1
+				mz	= 2
+			} else {
+				if col_layer[0][# _mx+1, _my+1] != 0 {
+					mx	= floor(_mx)+1
+					my	= floor(_my)+1
+					mz	= 1
+				}  else {
+					if col_layer[1][# _mx, _my] != 0 {
+						mx	= floor(_mx)
+						my	= floor(_my)
+						mz	= 1
+					} else {
+						mx	= floor(_mx)
+						my	= floor(_my)
+						mz	= 0
+					}
+				}
+			}
+		} 
         break
     case 90:
 		var _mx		= (mouse_y)/12-(mouse_x)/24 + 48 - 32
 		var _my		= -((mouse_y)/12+(mouse_x)/24) + 48 + 8
 		
-		
+		if col_layer[1][# _mx+2, _my-2] != 0 {
+			mx	= floor(_mx)+2
+			my	= floor(_my)-2
+			mz	= 2
+		} else {
+			if col_layer[1][# _mx+1, _my-1] != 0 {
+				mx	= floor(_mx)+1
+				my	= floor(_my)-1
+				mz	= 2
+			} else {
+				if col_layer[0][# _mx+1, _my-1] != 0 {
+					mx	= floor(_mx)+1
+					my	= floor(_my)-1
+					mz	= 1
+				}  else {
+					if col_layer[1][# _mx, _my] != 0 {
+						mx	= floor(_mx)
+						my	= floor(_my)
+						mz	= 1
+					} else {
+						mx	= floor(_mx)
+						my	= floor(_my)
+						mz	= 0
+					}
+				}
+			}
+		} 
         break
 	case 180:
 		var _mx		= -((mouse_y)/12+(mouse_x)/24) - 24 + 88
 		var _my		= -((mouse_y)/12-(mouse_x)/24) + 8 + 8
 		
-		
+		if col_layer[1][# _mx-2, _my-2] != 0 {
+			mx	= floor(_mx)-2
+			my	= floor(_my)-2
+			mz	= 2
+		} else {
+			if col_layer[1][# _mx-1, _my-1] != 0 {
+				mx	= floor(_mx)-1
+				my	= floor(_my)-1
+				mz	= 2
+			} else {
+				if col_layer[0][# _mx-1, _my-1] != 0 {
+					mx	= floor(_mx)-1
+					my	= floor(_my)-1
+					mz	= 1
+				}  else {
+					if col_layer[1][# _mx, _my] != 0 {
+						mx	= floor(_mx)
+						my	= floor(_my)
+						mz	= 1
+					} else {
+						mx	= floor(_mx)
+						my	= floor(_my)
+						mz	= 0
+					}
+				}
+			}
+		} 
 		break
 	case 270:
 		var _mx		= -((mouse_y)/12-(mouse_x)/24) - 24+48
 		var _my		= (mouse_y)/12+(mouse_x)/24 + 8-40
 		
-		
+		if col_layer[1][# _mx-2, _my+2] != 0 {
+			mx	= floor(_mx)-2
+			my	= floor(_my)+2
+			mz	= 2
+		} else {
+			if col_layer[1][# _mx-1, _my+1] != 0 {
+				mx	= floor(_mx)-1
+				my	= floor(_my)+1
+				mz	= 2
+			} else {
+				if col_layer[0][# _mx-1, _my+1] != 0 {
+					mx	= floor(_mx)-1
+					my	= floor(_my)+1
+					mz	= 1
+				}  else {
+					if col_layer[1][# _mx, _my] != 0 {
+						mx	= floor(_mx)
+						my	= floor(_my)
+						mz	= 1
+					} else {
+						mx	= floor(_mx)
+						my	= floor(_my)
+						mz	= 0
+					}
+				}
+			}
+		} 
 		break
 }
+
+
