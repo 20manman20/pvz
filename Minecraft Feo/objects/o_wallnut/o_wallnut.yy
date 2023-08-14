@@ -4,21 +4,18 @@
   "name": "o_wallnut",
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":false,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":53,"eventType":6,"isDnD":false,},
   ],
   "managed": true,
   "overriddenProperties": [
     {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"o_par_iso","path":"objects/o_par_iso/o_par_iso.yy",},"propertyId":{"name":"z","path":"objects/o_par_iso/o_par_iso.yy",},"value":"-CEL_W*2",},
   ],
   "parent": {
-    "name": "Objetos",
-    "path": "folders/Objetos.yy",
+    "name": "plantas",
+    "path": "folders/Objetos/plantas.yy",
   },
   "parentObjectId": {
-    "name": "o_par_iso",
-    "path": "objects/o_par_iso/o_par_iso.yy",
+    "name": "o_par_planta",
+    "path": "objects/o_par_planta/o_par_planta.yy",
   },
   "persistent": false,
   "physicsAngularDamping": 0.1,
@@ -42,9 +39,6 @@
     "name": "s_wallnut_01",
     "path": "sprites/s_wallnut_01/s_wallnut_01.yy",
   },
-  "spriteMaskId": {
-    "name": "s_mask",
-    "path": "sprites/s_mask/s_mask.yy",
-  },
+  "spriteMaskId": null,
   "visible": true,
 }

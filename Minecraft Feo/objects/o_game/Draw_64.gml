@@ -9,11 +9,18 @@ draw_text(10,40,string(floor(mx)))
 draw_text(10,50,string(floor(my)))
 draw_text(10,60,string(floor(mz)))
 
+draw_text(10,80,string(seed_i))
 
-draw_sprite(Sprite50,0,512/2,288)
-
+//Dibujar macetas
 var _w	= 41
+draw_sprite(s_seeds_bg,0,512/2,288)
 for (var i = 0; i <= 4; ++i) {
-	draw_sprite_ext(Sprite48,i, 512/2 + (i-2)*_w ,288-13-plant[i,4],1,1,0,c_white,1) 
+	var _x, _y
+	_x	= 512/2 + (i-2)*_w
+	_y	= 288-13-seed[i,pl_sd.y_]
+	draw_sprite_ext(s_seeds_pots,i, _x ,_y,1,1,0,c_white,1)
+	draw_sprite_ext(s_seeds_plants,seed[i,pl_sd.ind],_x-2,_y-2,1,1,0,c_white,1)
+	draw_sprite_part_ext(s_seeds_pots,seed[i,pl_sd.ind],0,0,40,40-40*seed[i,pl_sd.load]/plant[seed[i,pl_sd.ind],pl.load],_x-20,_y-40,1,1,c_black,.5)
+	draw_text(_x,_y-20,string(seed[i,pl_sd.cost]))
 }
 

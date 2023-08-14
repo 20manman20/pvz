@@ -9,7 +9,6 @@
   "instanceCreationOrder": [
     {"name":"inst_3AD81D91_1","path":"rooms/rm_old/rm_old.yy",},
     {"name":"inst_3A000666_1","path":"rooms/rm_old/rm_old.yy",},
-    {"name":"inst_1DC4FBAE_1","path":"rooms/rm_old/rm_old.yy",},
   ],
   "isDnd": false,
   "layers": [
@@ -55,7 +54,6 @@
 -13,0,-12,-2147483648,-18,1,-13,0,-12,-2147483648,-18,1,-13,0,-12,-2147483648,-18,1,-13,0,-16,-2147483648,-27,0,-16,-2147483648,-27,0,-16,-2147483648,-27,0,-16,-2147483648,-27,0,-16,-2147483648,-27,0,],"TileDataFormat":1,},"tilesetId":{"name":"TileSet1","path":"tilesets/TileSet1/TileSet1.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Instances_2","depth":700,"effectEnabled":true,"effectType":null,"gridX":24,"gridY":24,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_3A000666_1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"o_render","path":"objects/o_render/o_render.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":448.0,"y":88.0,},
-        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_1DC4FBAE_1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"o_shadow","path":"objects/o_shadow/o_shadow.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":264.0,"y":432.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Instances","depth":800,"effectEnabled":true,"effectType":null,"gridX":24,"gridY":24,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_3AD81D91_1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"o_game","path":"objects/o_game/o_game.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":320.0,"y":416.0,},

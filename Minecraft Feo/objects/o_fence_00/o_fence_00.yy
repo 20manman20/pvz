@@ -10,8 +10,8 @@
     {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"o_par_iso","path":"objects/o_par_iso/o_par_iso.yy",},"propertyId":{"name":"z","path":"objects/o_par_iso/o_par_iso.yy",},"value":"-CEL_W*3",},
   ],
   "parent": {
-    "name": "Objetos",
-    "path": "folders/Objetos.yy",
+    "name": "bloques",
+    "path": "folders/Objetos/bloques.yy",
   },
   "parentObjectId": {
     "name": "o_par_iso",
@@ -39,9 +39,6 @@
     "name": "s_fence_00",
     "path": "sprites/s_fence_00/s_fence_00.yy",
   },
-  "spriteMaskId": {
-    "name": "s_mask",
-    "path": "sprites/s_mask/s_mask.yy",
-  },
+  "spriteMaskId": null,
   "visible": true,
 }

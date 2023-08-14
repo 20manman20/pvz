@@ -1,22 +1,16 @@
-vecx			= lerp(vecx,lengthdir_x(1,cam_angle_r),angle_spd)
-vecy			= lerp(vecy,lengthdir_y(1,cam_angle_r),angle_spd)
 
-cam_angle		= point_direction(0,0,vecx,vecy) % 360
-cam_index		= round(round(cam_angle)/(360/VIEW_NUM) % VIEW_NUM)
+#region Semillas
 
-var	a_hinput	= mouse_wheel_up()-mouse_wheel_down()
-
-cam_angle_r		= (cam_angle_r+cam_ang_change*a_hinput+360)%360
-
-if point_in_rectangle(mouse_x,mouse_y,room_width/2-2.5*41,cam_h+cam_y-13-40,room_width/2+2.5*41,cam_h+cam_y-13) {
-	seeds_i	= (mouse_x-room_width/2+41*2.5) div 41
-} else seeds_i	= -1
 
 for (var i = 0; i < seeds_max; ++i) {
-	plant[i,4]	= lerp(plant[i,4],(i==seeds_i)*5,.5)
+	seed[i,pl_sd.y_]	= lerp(seed[i,pl_sd.y_],(i==seed_i)*5,.5)
+	if seed[i,pl_sd.load] < (plant[seed[i,pl_sd.ind],pl.load]+1/60) {
+		seed[i,pl_sd.load]	+= 1/60
+	}
+	seed[i,pl_sd.load]	= clamp(seed[i,pl_sd.load],0,plant[seed[i,pl_sd.ind],pl.load])
 }
 
-
+#endregion
 
 switch (cam_angle_r) {
     case 0:
@@ -150,3 +144,32 @@ switch (cam_angle_r) {
 }
 
 
+switch (level_state) {
+	case lvl_st.none:
+	
+		if point_in_rectangle(mouse_x,mouse_y,room_width/2-2.5*41,cam_h+cam_y-13-40,room_width/2+2.5*41,cam_h+cam_y-13) {
+			seed_i	= (mouse_x-room_width/2+41*2.5) div 41
+		} else seed_i	= -1
+
+		spin_camera()
+		
+		if mouse_check_button_pressed(mb_left) {
+			if seed_i != -1 {
+				plant_to_put	= instance_create_depth(x,y,depth,plant[seed[seed_i,pl_sd.ind],pl.obj])
+				level_state	= lvl_st.put
+			}
+		}
+		
+		
+        break;
+	case lvl_st.put:
+		spin_camera()
+		
+		if mouse_check_button_pressed(mb_left) {
+			plant_to_put.state	= 1
+			seed[seed_i,pl_sd.load]	= 0
+			level_state	= lvl_st.none
+		}
+		
+        break;
+}

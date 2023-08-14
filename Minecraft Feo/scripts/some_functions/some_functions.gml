@@ -102,7 +102,15 @@ function lerp_angle(val1,val2, amount) {
 	return lerp(val1, val2, amount);
 }
 
-function fdrawy(anglei) {
-	var _val	= CEL_W*CEL_W/2
-	return (axis_y(x*power(_val,.5)/CEL_W,y*power(_val,.5)/CEL_W,45+360/VIEW_NUM*anglei,330) + z/2 - height_/2)
+function spin_camera() {
+	vecx			= lerp(vecx,lengthdir_x(1,cam_angle_r),angle_spd)
+	vecy			= lerp(vecy,lengthdir_y(1,cam_angle_r),angle_spd)
+
+	cam_angle		= point_direction(0,0,vecx,vecy) % 360
+	cam_index		= round(round(cam_angle)/(360/VIEW_NUM) % VIEW_NUM)
+
+	var	a_hinput	= mouse_wheel_up()-mouse_wheel_down()
+
+	cam_angle_r		= (cam_angle_r+cam_ang_change*a_hinput+360)%360
 }
+	

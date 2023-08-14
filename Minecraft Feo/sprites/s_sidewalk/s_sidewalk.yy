@@ -26,8 +26,8 @@
   "nineSlice": null,
   "origin": 9,
   "parent": {
-    "name": "no sé la verdad estoy muy triste",
-    "path": "no sé la verdad estoy muy triste.yyp",
+    "name": "bloques",
+    "path": "folders/Sprites/bloques.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

@@ -4,7 +4,6 @@
   "name": "o_pea",
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":{"name":"o_zombie","path":"objects/o_zombie/o_zombie.yy",},"eventNum":0,"eventType":4,"isDnD":false,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
   ],
   "managed": true,
@@ -12,8 +11,8 @@
     {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"o_par_iso","path":"objects/o_par_iso/o_par_iso.yy",},"propertyId":{"name":"height_","path":"objects/o_par_iso/o_par_iso.yy",},"value":"8",},
   ],
   "parent": {
-    "name": "Objetos",
-    "path": "folders/Objetos.yy",
+    "name": "plantas",
+    "path": "folders/Objetos/plantas.yy",
   },
   "parentObjectId": {
     "name": "o_par_iso",
@@ -38,9 +37,6 @@
     "name": "s_pea",
     "path": "sprites/s_pea/s_pea.yy",
   },
-  "spriteMaskId": {
-    "name": "s_mask",
-    "path": "sprites/s_mask/s_mask.yy",
-  },
+  "spriteMaskId": null,
   "visible": true,
 }

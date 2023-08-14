@@ -6,8 +6,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Objetos",
-    "path": "folders/Objetos.yy",
+    "name": "bloques",
+    "path": "folders/Objetos/bloques.yy",
   },
   "parentObjectId": {
     "name": "o_par_block",
@@ -29,8 +29,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "s_grass_00",
-    "path": "sprites/s_grass_00/s_grass_00.yy",
+    "name": "s_grass",
+    "path": "sprites/s_grass/s_grass.yy",
   },
   "spriteMaskId": {
     "name": "s_cube_mask",

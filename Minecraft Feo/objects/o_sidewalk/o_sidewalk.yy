@@ -8,8 +8,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Objetos",
-    "path": "folders/Objetos.yy",
+    "name": "bloques",
+    "path": "folders/Objetos/bloques.yy",
   },
   "parentObjectId": {
     "name": "o_par_block",

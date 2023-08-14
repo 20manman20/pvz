@@ -11,8 +11,8 @@
     {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"o_par_iso","path":"objects/o_par_iso/o_par_iso.yy",},"propertyId":{"name":"z","path":"objects/o_par_iso/o_par_iso.yy",},"value":"-CEL_W*2",},
   ],
   "parent": {
-    "name": "Objetos",
-    "path": "folders/Objetos.yy",
+    "name": "zombie",
+    "path": "folders/Objetos/zombie.yy",
   },
   "parentObjectId": {
     "name": "o_par_iso",
@@ -40,9 +40,6 @@
     "name": "s_tombstone_1x1",
     "path": "sprites/s_tombstone_1x1/s_tombstone_1x1.yy",
   },
-  "spriteMaskId": {
-    "name": "s_mask",
-    "path": "sprites/s_mask/s_mask.yy",
-  },
+  "spriteMaskId": null,
   "visible": true,
 }

@@ -23,7 +23,7 @@ alarm[1]		= 1
 //128	0 32 64 96
 //64	0 16 32	48
 
-seeds_i			= 0
+seed_i			= 0
 seeds_max		= 5
 
 cam_x			= 224
@@ -34,33 +34,59 @@ cam_h			= 288
 window_set_size(512*3,288*3)
 
 /*
-plant[value,0]	= Objeto
-plant[value,1]	= Costo
-plant[value,2]	= Carga
-plant[value,3]	= Carga necesaria
-plant[value,4]	= Y offset
-plant[value,5]	= Ang offset
+seed {
+	Index
+	Costo
+	Carga
+	Y offset
+	Ang offset
+}
+
+plant {
+	Objeto
+	Costo
+	Carga necesaria
+	Carga inicial
+}
 */
+
+enum pl_sd {
+	ind,
+	cost,
+	load,
+	y_,
+	ang
+}
 
 enum pl {
 	obj,
 	cost,
-	loadf,
 	load,
-	y_,
-	ang
-	
+	loadi
 }
 
+ plant	= [	[o_sunflower,50,5,5],
+			[o_peashooter,100,5,5],
+			[o_wallnut,50,20,15],
+			[o_potato_mine,25,20,10]]
+ 
 for (var i = 0; i < seeds_max; ++i) {
-    plant[i,0]	= noone
-	plant[i,1]	= 100
-	plant[i,2]	= 4
-	plant[i,3]	= plant[i,2]
-	plant[i,4]	= 0
-	plant[i,5]	= 0
+	var _ind	= irandom_range(0,3)
+	seed[i,pl_sd.ind]	= _ind
+	seed[i,pl_sd.cost]	= plant[_ind,pl.cost]
+	seed[i,pl_sd.load]	= plant[_ind,pl.loadi]
+	seed[i,pl_sd.y_]	= 0
+	seed[i,pl_sd.ang]	= 0
 }
 
 mx	= 0
 my	= 0
 mz	= 0
+
+enum lvl_st {
+	none,
+	put
+}
+
+level_state		= lvl_st.none
+plant_to_put	= noone
