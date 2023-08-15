@@ -12,3 +12,7 @@ image_blend	= make_color_hsv((	0									+256) mod 256			//150
 image_index	= irandom_range(0,image_number-2)
 
 alarm[0]	= 1
+
+coorx		= 0
+coory		= 0
+coordd		= 0

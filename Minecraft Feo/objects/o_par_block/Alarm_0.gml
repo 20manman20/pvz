@@ -21,6 +21,10 @@ for (var i = 0; i < VIEW_NUM+1; ++i) {
 	}
 }
 
+coorx	= drawx[| cam_index]
+coory	= drawy[| cam_index]
+coordd	= drawdd[| cam_index]
+
 /*
 image_blend	= make_color_hsv((	0									+256) mod 256			//150
 							,(25									+256) mod 256			//+z

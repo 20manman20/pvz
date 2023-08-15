@@ -29,19 +29,15 @@ function iso_construction(layer_name,_z) {
 		for (var ty	= 0; ty < MAP_H; ty++) {
 			tile_index	= tilemap_get(tile_map,tx,ty)
 			tile_data	= tile_get_index(tile_index)
-		
-			for (var i = 0; i < tile_data; ++i) {
-				col_layer[_z][# tx, ty]	= tile_data
-				tile_o		= instance_create_depth((tx+.5)*CEL_W,(ty+.5)*CEL_W,depth,blocks[tile_data-1])
-				tile_o.z		= -_z*CEL_W
-				/*
-				tile_o		= instance_create_depth((tx+.5)*CEL_W,(ty+.5)*CEL_W,depth,blocks[tile_data-1])
-				if tile_get_mirror(tile_index) {
-					tile_o.angle_z = 180
-				}
-				tile_o.z		= -_z*CEL_W
-				*/
+			map[_z][# tx, ty]	= [tile_data,noone]
+			
+			if tile_data > 0 {
+				tile_o					= instance_create_depth((tx+.5)*CEL_W,(ty+.5)*CEL_W,depth,blocks[tile_data-1])
+				tile_o.z				= -_z*CEL_W
+				map[_z][# tx, ty][1]	= tile_o
 			}
+			
+			
 		}
 	}
 }
@@ -109,8 +105,18 @@ function spin_camera() {
 	cam_angle		= point_direction(0,0,vecx,vecy) % 360
 	cam_index		= round(round(cam_angle)/(360/VIEW_NUM) % VIEW_NUM)
 
-	var	a_hinput	= mouse_wheel_up()-mouse_wheel_down()
+	var	a_hinput	= keyboard_check_pressed(ord("A")) - keyboard_check_pressed(ord("D"))//mouse_wheel_up()-mouse_wheel_down()
 
 	cam_angle_r		= (cam_angle_r+cam_ang_change*a_hinput+360)%360
+	
+	if a_hinput != 0 {
+		spin_state	= 1
+		alarm[1]	= 40
+	}
 }
 	
+function change_seed_i() {
+	if point_in_rectangle(mouse_x,mouse_y,room_width/2-2.5*41,cam_h+cam_y-13-40,room_width/2+2.5*41,cam_h+cam_y-13) {
+		seed_i	= (mouse_x-room_width/2+41*2.5) div 41
+	} else seed_i	= -1
+}

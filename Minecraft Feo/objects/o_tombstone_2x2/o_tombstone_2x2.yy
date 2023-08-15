@@ -15,8 +15,8 @@
     "path": "folders/Objetos/zombie.yy",
   },
   "parentObjectId": {
-    "name": "o_par_iso",
-    "path": "objects/o_par_iso/o_par_iso.yy",
+    "name": "o_par_zombie",
+    "path": "objects/o_par_zombie/o_par_zombie.yy",
   },
   "persistent": false,
   "physicsAngularDamping": 0.1,

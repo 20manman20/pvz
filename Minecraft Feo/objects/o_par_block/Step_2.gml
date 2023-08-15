@@ -1,1 +1,1 @@
-depth	= drawdd[| cam_index]		//debo ver como cambiar esto
+depth	= coordd		//debo ver como cambiar esto

@@ -14,8 +14,8 @@
     "path": "folders/Objetos/plantas.yy",
   },
   "parentObjectId": {
-    "name": "o_par_planta",
-    "path": "objects/o_par_planta/o_par_planta.yy",
+    "name": "o_par_plant",
+    "path": "objects/o_par_plant/o_par_plant.yy",
   },
   "persistent": false,
   "physicsAngularDamping": 0.1,

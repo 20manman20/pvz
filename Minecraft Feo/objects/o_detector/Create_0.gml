@@ -1,2 +1,2 @@
 event_inherited()
-hspeed	= 5
+hspeed	= 15

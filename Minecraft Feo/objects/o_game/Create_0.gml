@@ -1,5 +1,22 @@
 globalvar cam_index, z_level, cam_angle, cam_angle_r;
 
+backyard_00	= [14,9]
+backyard_11	= [25,14]
+
+for (var i = 0; i < (backyard_11[0]-backyard_00[0]+1); ++i) {
+	bol_zombie_x[i]	= false
+}
+
+for (var i = 0; i < (backyard_11[1]-backyard_00[1]+1); ++i) {
+	bol_zombie_y[i]	= false
+}
+
+for (var i = 0; i < 12; ++i) {
+	
+}
+
+sun_amount		= 0
+
 cam_angle		= 0
 cam_index		= round(round(cam_angle)/(360/VIEW_NUM) % VIEW_NUM)
 
@@ -79,8 +96,8 @@ for (var i = 0; i < seeds_max; ++i) {
 	seed[i,pl_sd.ang]	= 0
 }
 
-mx	= 0
-my	= 0
+mx	= 5
+my	= 5
 mz	= 0
 
 enum lvl_st {
@@ -90,3 +107,5 @@ enum lvl_st {
 
 level_state		= lvl_st.none
 plant_to_put	= noone
+
+spin_state	= 0

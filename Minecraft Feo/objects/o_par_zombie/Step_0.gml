@@ -10,3 +10,7 @@ image_xscale	= sprite_i[_angle div 45][2]
 
 
 event_inherited()
+
+damage_cooldown	= lerp(damage_cooldown,0,.1)
+
+if hp_ <= 0 instance_destroy()

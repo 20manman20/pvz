@@ -1,0 +1,1 @@
+spin_state	= 0

@@ -4,6 +4,8 @@
   "name": "o_peashooter",
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":1,"eventType":2,"isDnD":false,},
   ],
   "managed": true,
   "overriddenProperties": [
@@ -14,8 +16,8 @@
     "path": "folders/Objetos/plantas.yy",
   },
   "parentObjectId": {
-    "name": "o_par_planta",
-    "path": "objects/o_par_planta/o_par_planta.yy",
+    "name": "o_par_plant",
+    "path": "objects/o_par_plant/o_par_plant.yy",
   },
   "persistent": false,
   "physicsAngularDamping": 0.1,
