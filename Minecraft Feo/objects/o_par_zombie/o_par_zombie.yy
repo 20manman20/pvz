@@ -10,6 +10,8 @@
   "managed": true,
   "overriddenProperties": [
     {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"o_par_iso","path":"objects/o_par_iso/o_par_iso.yy",},"propertyId":{"name":"z","path":"objects/o_par_iso/o_par_iso.yy",},"value":"-CEL_W*2",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"o_par_iso","path":"objects/o_par_iso/o_par_iso.yy",},"propertyId":{"name":"angle_z","path":"objects/o_par_iso/o_par_iso.yy",},"value":"180",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"o_par_iso","path":"objects/o_par_iso/o_par_iso.yy",},"propertyId":{"name":"height_","path":"objects/o_par_iso/o_par_iso.yy",},"value":"22",},
   ],
   "parent": {
     "name": "Objetos",

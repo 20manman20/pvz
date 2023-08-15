@@ -114,7 +114,7 @@ function spin_camera() {
 	cam_angle		= point_direction(0,0,vecx,vecy) % 360
 	cam_index		= round(round(cam_angle)/(360/VIEW_NUM) % VIEW_NUM)
 
-	var	a_hinput	= /*keyboard_check_pressed(ord("A")) - keyboard_check_pressed(ord("D"))*/mouse_wheel_up()-mouse_wheel_down()
+	var	a_hinput	= keyboard_check_pressed(ord("A")) - keyboard_check_pressed(ord("D"))//mouse_wheel_up()-mouse_wheel_down()
 
 	cam_angle_r		= (cam_angle_r+cam_ang_change*a_hinput+360)%360
 	
@@ -132,12 +132,12 @@ function change_seed_i() {
 
 function place_meeting_3d(_x,_y,_z) {
 	
-	var _x1 = (bbox_left+(_x-x))	div 24,
-	    _y1 = (bbox_top+(_y-y))	div 24,
-	    _x2 = (bbox_right+(_x-x))	div 24,
-	    _y2 = (bbox_bottom+(_y-y))	div 24,
-		_z1	= (floor((-_z-12)/24+.5)),
-		_z2	= (floor((-(_z-height_)-12)/24+.5))
+	var _x1 = (bbox_left+(_x-x))	div CEL_W,
+	    _y1 = (bbox_top+(_y-y))		div CEL_W,
+	    _x2 = (bbox_right+(_x-x))	div CEL_W,
+	    _y2 = (bbox_bottom+(_y-y))	div CEL_W,
+		_z1	= (floor((-_z-CEL_W/2)/CEL_W+.5)),
+		_z2	= (floor((-(_z-height_)-CEL_W/2)/CEL_W+.5))
 		
 	for(var i = _x1; i <= _x2; i++){
 		for(var j = _y1; j <= _y2; j++){

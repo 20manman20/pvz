@@ -11,4 +11,3 @@ sprite_i	= [	[s_sunflower_01, -1, 1],		//00
 				[s_sunflower_00, -1, -1],		//270
 				[s_sunflower_00, -1, -1]]		//315
 
-alarm[0]	= 4*60 // [seg]*[fps]

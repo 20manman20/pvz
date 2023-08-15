@@ -5,7 +5,7 @@ globalvar backyard_00, backyard_11;
 backyard_00	= [14,9]
 backyard_11	= [26,15]
 
-sun_amount		= 100000
+sun_amount		= 100
 sun_amount_r	= sun_amount
 
 cam_angle		= 0
@@ -32,7 +32,7 @@ alarm[1]		= 1
 //64	0 16 32	48
 
 seed_i			= 0
-seeds_max		= 5
+seeds_max		= 1
 
 cam_x			= 224
 cam_y			= 144
@@ -79,7 +79,7 @@ enum pl {
 			[o_potato_mine,25,20,10]]
  
 for (var i = 0; i < seeds_max; ++i) {
-	var _ind	= irandom_range(0,3)
+	var _ind			= 1
 	seed[i,pl_sd.ind]	= _ind
 	seed[i,pl_sd.cost]	= plant[_ind,pl.cost]
 	seed[i,pl_sd.load]	= plant[_ind,pl.loadi]
@@ -99,4 +99,6 @@ enum lvl_st {
 level_state		= lvl_st.none
 plant_to_put	= noone
 
-spin_state	= 0
+spin_state		= 0
+
+alarm[2]		= 60*5

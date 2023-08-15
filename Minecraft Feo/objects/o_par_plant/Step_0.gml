@@ -10,9 +10,9 @@ if sprite_i[_angle div 45][1] != -1 {
 
 image_xscale	= sprite_i[_angle div 45][2]
 
-if !state {
-	x	= lerp(x,o_game.mx*24+12,.4)
-	y	= lerp(y,o_game.my*24+12,.4)
-	z	= lerp(z,-o_game.mz*24,.7)
+if !bol_ready {
+	x	= lerp(x,(o_game.mx+.5)*CEL_W,.4)
+	y	= lerp(y,(o_game.my+.5)*CEL_W,.4)
+	z	= lerp(z,-o_game.mz*CEL_W,.7)
 }
 

@@ -15,39 +15,19 @@ my	= clamp(my,5,MAP_H-5)
 
 var _mxmx,_mxmy,_mymx,_mymy,_mpmx,_mpmy,_mxoff,_myoff
 
-switch (cam_angle_r) {
-    case 0:
-		_mxoff	= -24
-		_myoff	= 8
-		
-        break
-    case 90:
-		_mxoff	= 16
-		_myoff	= 56
-		
-        break
-	case 180:
-		_mxoff	= 64
-		_myoff	= 16
-		
-		break
-	case 270:
-		_mxoff	= 24
-		_myoff	= -32
-		
-		break
-}
+_mxoff	= -24 + 24*(-lengthdir_y(power(2,.5),cam_angle_r+225)+1) + 20*(lengthdir_x(power(2,.5),cam_angle_r+225)+1)
+_myoff	= 8	- 20*(-lengthdir_y(power(2,.5),cam_angle_r+225)+1) + 24*(lengthdir_x(power(2,.5),cam_angle_r+225)+1)	
 
-_mxmy	= sign(dsin(cam_angle_r+45))
-_mxmx	= sign(dcos(cam_angle_r+45))
-_mymy	= sign(dsin(cam_angle_r+45+90))
-_mymx	= sign(dcos(cam_angle_r+45+90))
+_mxmy	= -lengthdir_y(power(2,.5),cam_angle_r+45)
+_mxmx	= lengthdir_x(power(2,.5),cam_angle_r+45)
+_mymy	= sign(-lengthdir_y(power(2,.5),cam_angle_r+45+90))
+_mymx	= sign(lengthdir_x(power(2,.5),cam_angle_r+45+90))
 
-_mpmx	= sign(dsin(cam_angle_r+45))
-_mpmy	= sign(dcos(cam_angle_r+45))
+_mpmx	= sign(-lengthdir_y(power(2,.5),cam_angle_r+45))
+_mpmy	= sign(lengthdir_x(power(2,.5),cam_angle_r+45))
 
-var _mx		= clamp(_mxmy*(mouse_y)/12+_mxmx*(mouse_x)/24 + _mxoff,5,MAP_W-5)
-var _my		= clamp(_mymy*(mouse_y)/12+_mymx*(mouse_x)/24 + _myoff,5,MAP_H-5)
+var _mx		= clamp(_mxmy*(mouse_y)/(CEL_W/2)+_mxmx*(mouse_x)/CEL_W + _mxoff,5,MAP_W-5)
+var _my		= clamp(_mymy*(mouse_y)/(CEL_W/2)+_mymx*(mouse_x)/CEL_W + _myoff,5,MAP_H-5)
 
 
 if map[1][# _mx+2*_mpmx, _my+2*_mpmy][2] == 0 {
@@ -115,7 +95,10 @@ switch (level_state) {
 				audio_play_sound(choose(snd_put_plant_00,snd_put_plant_01),1,0)
 				map[mz][# mx, my]		= [seed[seed_i,pl_sd.ind]+50,plant_to_put,1]
 				sun_amount				-= _cost
-				plant_to_put.state		= 1
+				with (plant_to_put) {
+				    bol_ready	= 1
+					event_user(0)
+				}
 				seed[seed_i,pl_sd.load]	= 0
 				level_state				= lvl_st.none
 			}

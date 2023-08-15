@@ -1,1 +1,1 @@
-draw_sprite_ext(sprite_index,image_index,	drawx,drawy,image_xscale,image_yscale,0,image_blend,1)
+draw_sprite_ext(sprite_index,image_index,	drawx,drawy,image_xscale,image_yscale,0,image_blend,(bol_ready)/2+.5)

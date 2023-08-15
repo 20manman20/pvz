@@ -9,3 +9,4 @@ sprite_i	= [	[s_tombstone_1x1, 0, 1],		//00
 				[s_tombstone_1x1, 6, 1],		//270
 				[s_tombstone_1x1, 7, 1]]		//315
 
+alarm[0]	= 60*irandom_range(4,12)

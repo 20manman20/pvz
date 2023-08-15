@@ -29,7 +29,7 @@ draw_set_color(c_black)
 //Dibujar macetas
 var _w	= 41
 draw_sprite(s_seeds_bg,0,512/2,288)
-for (var i = 0; i <= 4; ++i) {
+for (var i = 0; i < seeds_max; ++i) {
 	var _x, _y
 	_x	= 512/2 + (i-2)*_w
 	_y	= 288-13-seed[i,pl_sd.y_]
