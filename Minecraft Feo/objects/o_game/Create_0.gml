@@ -1,21 +1,12 @@
 globalvar cam_index, z_level, cam_angle, cam_angle_r;
+globalvar sun_amount;
+globalvar backyard_00, backyard_11;
 
 backyard_00	= [14,9]
-backyard_11	= [25,14]
+backyard_11	= [26,15]
 
-for (var i = 0; i < (backyard_11[0]-backyard_00[0]+1); ++i) {
-	bol_zombie_x[i]	= false
-}
-
-for (var i = 0; i < (backyard_11[1]-backyard_00[1]+1); ++i) {
-	bol_zombie_y[i]	= false
-}
-
-for (var i = 0; i < 12; ++i) {
-	
-}
-
-sun_amount		= 0
+sun_amount		= 100000
+sun_amount_r	= sun_amount
 
 cam_angle		= 0
 cam_index		= round(round(cam_angle)/(360/VIEW_NUM) % VIEW_NUM)

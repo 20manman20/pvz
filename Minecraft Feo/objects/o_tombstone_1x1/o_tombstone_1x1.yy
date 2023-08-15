@@ -4,6 +4,7 @@
   "name": "o_tombstone_1x1",
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":false,},
   ],
   "managed": true,
   "overriddenProperties": [
@@ -38,8 +39,8 @@
     "path": "sprites/s_tombstone_1x1/s_tombstone_1x1.yy",
   },
   "spriteMaskId": {
-    "name": "s_z_mask",
-    "path": "sprites/s_z_mask/s_z_mask.yy",
+    "name": "s_z_mask_1x1",
+    "path": "sprites/s_z_mask_1x1/s_z_mask_1x1.yy",
   },
   "visible": true,
 }

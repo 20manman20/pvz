@@ -13,3 +13,4 @@ alarm[0]	= 10
 alarm[1]	= 30
 
 bol_zombie	= 0
+shoot_cad	= 80

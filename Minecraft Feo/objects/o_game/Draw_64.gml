@@ -10,13 +10,21 @@ draw_line_width(_cx,_cy,_cx+lengthdir_x(_cr,point_direction(0,0,vecx,vecy)),_cy+
 
 //var _mx		= (mouse_y)/12+(mouse_x)/24 - 24
 //var _my		= (mouse_y)/12-(mouse_x)/24 + 8
-draw_text(10,15,"Soles: " + string(sun_amount))
-draw_text(10,50,string(map[mz][# mx, my][0]))
+draw_set_valign(fa_middle)
+
+draw_set_halign(fa_left)
+draw_text(10,50,string(seed_i))
 draw_text(10,60,string(floor(mx)))
 draw_text(10,70,string(floor(my)))
 draw_text(10,80,string(floor(mz)))
 
-draw_text(10,80,string(spin_state))
+draw_set_alpha(.6)
+draw_rectangle(40+4,40-8,40+48,40+8,false)
+draw_set_alpha(1)
+draw_sprite(s_sun_gui,0,40,40)
+draw_set_color(c_white)
+draw_text(56,40,string(sun_amount_r))
+draw_set_color(c_black)
 
 //Dibujar macetas
 var _w	= 41

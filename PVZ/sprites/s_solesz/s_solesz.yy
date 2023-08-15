@@ -60,7 +60,7 @@
             {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"0699b2d9-f06d-4774-83c7-696eba42117a","path":"sprites/s_solesz/s_solesz.yy",},},},"Disabled":false,"id":"0940f4d4-1c65-47b1-8aec-5ddea65834fa","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
-    "visibleRange": {"x":0.0,"y":0.0,},
+    "visibleRange": null,
     "volume": 1.0,
     "xorigin": 66,
     "yorigin": 0,

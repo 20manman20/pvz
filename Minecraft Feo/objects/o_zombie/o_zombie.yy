@@ -1,0 +1,46 @@
+{
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "o_zombie",
+  "eventList": [
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
+  ],
+  "managed": true,
+  "overriddenProperties": [
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"o_par_iso","path":"objects/o_par_iso/o_par_iso.yy",},"propertyId":{"name":"z","path":"objects/o_par_iso/o_par_iso.yy",},"value":"-CEL_W*5",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"o_par_iso","path":"objects/o_par_iso/o_par_iso.yy",},"propertyId":{"name":"height_","path":"objects/o_par_iso/o_par_iso.yy",},"value":"45",},
+  ],
+  "parent": {
+    "name": "zombie",
+    "path": "folders/Objetos/zombie.yy",
+  },
+  "parentObjectId": {
+    "name": "o_par_zombie",
+    "path": "objects/o_par_zombie/o_par_zombie.yy",
+  },
+  "persistent": false,
+  "physicsAngularDamping": 0.1,
+  "physicsDensity": 0.5,
+  "physicsFriction": 0.2,
+  "physicsGroup": 1,
+  "physicsKinematic": false,
+  "physicsLinearDamping": 0.1,
+  "physicsObject": false,
+  "physicsRestitution": 0.1,
+  "physicsSensor": false,
+  "physicsShape": 1,
+  "physicsShapePoints": [],
+  "physicsStartAwake": true,
+  "properties": [],
+  "solid": false,
+  "spriteId": {
+    "name": "s_pre_zombie",
+    "path": "sprites/s_pre_zombie/s_pre_zombie.yy",
+  },
+  "spriteMaskId": {
+    "name": "s_z_mask_1x1",
+    "path": "sprites/s_z_mask_1x1/s_z_mask_1x1.yy",
+  },
+  "visible": true,
+}

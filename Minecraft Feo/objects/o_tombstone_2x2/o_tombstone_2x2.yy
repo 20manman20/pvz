@@ -4,11 +4,11 @@
   "name": "o_tombstone_2x2",
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
   ],
   "managed": true,
   "overriddenProperties": [
     {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"o_par_iso","path":"objects/o_par_iso/o_par_iso.yy",},"propertyId":{"name":"z","path":"objects/o_par_iso/o_par_iso.yy",},"value":"-CEL_W*2",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"o_par_zombie","path":"objects/o_par_zombie/o_par_zombie.yy",},"propertyId":{"name":"hp_max","path":"objects/o_par_zombie/o_par_zombie.yy",},"value":"2000",},
   ],
   "parent": {
     "name": "zombie",
@@ -31,15 +31,15 @@
   "physicsShape": 1,
   "physicsShapePoints": [],
   "physicsStartAwake": true,
-  "properties": [
-    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"hp_","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"0","varType":0,},
-    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"hp_max","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"0","varType":0,},
-  ],
+  "properties": [],
   "solid": false,
   "spriteId": {
     "name": "s_tombstone_2x2_00",
     "path": "sprites/s_tombstone_2x2_00/s_tombstone_2x2_00.yy",
   },
-  "spriteMaskId": null,
+  "spriteMaskId": {
+    "name": "s_z_mask_2x2",
+    "path": "sprites/s_z_mask_2x2/s_z_mask_2x2.yy",
+  },
   "visible": true,
 }
