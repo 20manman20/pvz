@@ -1,0 +1,84 @@
+mx	= clamp(mx,1,mapw-1)
+my	= clamp(my,1,maph-1)
+
+var _mxmx,_mxmy,_mymx,_mymy,_mpmx,_mpmy,_mxoff,_myoff
+
+_mxoff	= -18 + 18*(-lengthdir_y(power(2,.5),cam_angle_r+225)+1) + 15*(lengthdir_x(power(2,.5),cam_angle_r+225)+1)
+_myoff	= 6 - 15*(-lengthdir_y(power(2,.5),cam_angle_r+225)+1) + 18*(lengthdir_x(power(2,.5),cam_angle_r+225)+1)
+
+
+/*
+_mxoff	= -576/CEL_W + 576/CEL_W*(-lengthdir_y(power(2,.5),cam_angle_r+225)+1) + 480/CEL_W*(lengthdir_x(power(2,.5),cam_angle_r+225)+1)
+_myoff	= 192/CEL_W - 480/CEL_W*(-lengthdir_y(power(2,.5),cam_angle_r+225)+1) + 576/CEL_W*(lengthdir_x(power(2,.5),cam_angle_r+225)+1)
+
+_mxoff	= 576()
+*/
+
+_mxmy	= -lengthdir_y(power(2,.5),cam_angle_r+45)
+_mxmx	= lengthdir_x(power(2,.5),cam_angle_r+45)
+_mymy	= sign(-lengthdir_y(power(2,.5),cam_angle_r+45+90))
+_mymx	= sign(lengthdir_x(power(2,.5),cam_angle_r+45+90))
+
+_mpmx	= sign(-lengthdir_y(power(2,.5),cam_angle_r+45))
+_mpmy	= sign(lengthdir_x(power(2,.5),cam_angle_r+45))
+
+var _mx		= clamp(_mxmy*(mouse_y)/(CEL_W/2)+_mxmx*(mouse_x)/CEL_W + _mxoff,1,mapw-1)
+var _my		= clamp(_mymy*(mouse_y)/(CEL_W/2)+_mymx*(mouse_x)/CEL_W + _myoff,1,maph-1)
+
+mx	= floor(_mx)
+my	= floor(_my)
+mz	= 0
+
+for (var i = (max_z_layer*2-1); i >= 0; --i) {
+	var _0	= i div 2
+	var _1	= (i+1) div 2
+	
+	if map[_0][# clamp(_mx+(_1)*_mpmx,1,mapw-1), clamp(_my+(_1)*_mpmy,1,maph-1)][2] == 0 {
+		mx	= clamp(floor(_mx)+(_1)*_mpmx,1,mapw-1)
+		my	= clamp(floor(_my)+(_1)*_mpmy,1,maph-1)
+		mz	= clamp(_0+1,0,4)
+		break
+	} else {
+		if map[_0][# clamp(_mx+(_1)*_mpmx,1,mapw-1), clamp(_my+(_1)*_mpmy,1,maph-1)][2] == 0 {
+			mx	= clamp(floor(_mx)+(_1)*_mpmx,1,mapw-1)
+			my	= clamp(floor(_my)+(_1)*_mpmy,1,maph-1)
+			mz	= clamp(_0+1,0,4)
+			break
+		} 
+	}
+}
+
+/*
+2
+2*2-1	= 3
+3 div 2	= 1
+3+1 div 2	= 2
+
+if map[1][# _mx+2*_mpmx, _my+2*_mpmy][2] == 0 {
+	mx	= floor(_mx)+2*_mpmx
+	my	= floor(_my)+2*_mpmy
+	mz	= 2
+} else {
+	if map[1][# _mx+1*_mpmx, _my+1*_mpmy][2] == 0 {
+		mx	= floor(_mx)+1*_mpmx
+		my	= floor(_my)+1*_mpmy
+		mz	= 2
+	} else {
+		if map[0][# _mx+1*_mpmx, _my+1*_mpmy][2] == 0 {
+			mx	= floor(_mx)+1*_mpmx
+			my	= floor(_my)+1*_mpmy
+			mz	= 1
+		}  else {
+			if map[0][# _mx, _my][2] == 0 {
+				mx	= floor(_mx)
+				my	= floor(_my)
+				mz	= 1
+			} else {
+				mx	= floor(_mx)
+				my	= floor(_my)
+				mz	= 0
+			}
+		}
+	}
+} 
+*/

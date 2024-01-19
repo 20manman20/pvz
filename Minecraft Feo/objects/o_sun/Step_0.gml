@@ -1,39 +1,77 @@
-image_angle	= (image_angle + spin_dir*.8) % 360
-
 switch (state) {
     case sun_st.jump:
+	drawx	= x+lengthdir_x(-z/24*32,CAMERA_UP)
+	drawy	= y+lengthdir_y(-z/24*32,CAMERA_UP)
+	
+	 if angle < 180 {
+		angle+=4
+	} else {
+		angle	= 180
+	}
+	zoff	-= lengthdir_x(2.5,angle)
+	z		=  zstart+clamp(zoff,-48,0)
+	
+	/*
+		drawx	= x+lengthdir_x(-z/24*32,CAMERA_UP)
+		drawy	= y+lengthdir_y(-z/24*32,CAMERA_UP)
         if angle < 180 {
-			hspeed		= spin_dir*.2
 			angle+=4
 		} else {
 			angle	= 180
-			hspeed	= 0
 		}
-		yoff	-= lengthdir_x(2,angle)
-
-		y	= ystart+clamp(yoff,-48,8)
-        break
-    case sun_st.fall:
-		hspeed	= 0
-        y+=.4
+		zoff	-= lengthdir_x(2.5,angle)
+		z	= zstart+clamp(zoff,-48,0)
 		
-		if y > (o_game.cam_y + o_game.cam_h - 128) {
+		x	= xstart+lengthdir_x(-z/24*32,CAMERA_UP)
+		y	= ystart+lengthdir_y(-z/24*32,CAMERA_UP)
+		
+		if game_side {
+			if angle == 180 image_alpha	= lerp(image_alpha,0,.05)
+			
+			if image_alpha <= 0.1 {
+				instance_destroy()
+			}
+		}
+		*/
+		break
+    case sun_st.fall:
+		drawx	= x+lengthdir_x(-z/24*32,CAMERA_UP)
+		drawy	= y+lengthdir_y(-z/24*32,CAMERA_UP)
+		
+		if (place_meeting_3d(xstart,ystart,z+8) != -1 || z >= -8) {
+			zspd = 0
+		} else zspd	= .8
+		
+		z	+= zspd
+		
+		/*
+		if z > 45 {
 			image_alpha-=.02
 			if image_alpha <= 0 {
 				instance_destroy()
 			}
 		}
+		*/
+		
+		
+		
         break
 	case sun_st.fly:
-		hspeed	= 0
 		image_alpha	= lerp(image_alpha,1,.4)
+		var _x	= corner_x+lengthdir_x(32*window_scale,cam_angle+darctan2(1,.5))
+		var _y	= corner_y-lengthdir_y(32*window_scale,cam_angle+darctan2(1,.5))
 		
-		x	= lerp(x,224+40,.1)
-		y	= lerp(y,144+40,.1)
+		drawx	= lerp(drawx,_x,.1)
+		drawy	= lerp(drawy,_y,.1)
 		
-		if point_distance(x,y,224+40,144+40) < 4 {
+		if point_distance(drawx,drawy,_x,_y) < 8 {
 			instance_destroy()
-			sun_amount += 50
 		}
+
 		break
+}
+
+if point_distance(distance_x(drawx,drawy),distance_y(drawx,drawy)+16,window_mouse_get_x()/window_scale,window_mouse_get_y()/window_scale) < 9 {
+	instance_destroy()
+	sun_amount+=50
 }

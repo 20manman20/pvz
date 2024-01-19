@@ -4,7 +4,9 @@
   "name": "o_dirt",
   "eventList": [],
   "managed": true,
-  "overriddenProperties": [],
+  "overriddenProperties": [
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"o_par_block","path":"objects/o_par_block/o_par_block.yy",},"propertyId":{"name":"block_id","path":"objects/o_par_block/o_par_block.yy",},"value":"1",},
+  ],
   "parent": {
     "name": "bloques",
     "path": "folders/Objetos/bloques.yy",

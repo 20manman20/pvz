@@ -1,2 +1,3 @@
 /// @description Iniciar
-alarm[0]	= 120
+event_inherited()
+alarm[1]	= 60*1

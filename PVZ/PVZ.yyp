@@ -128,7 +128,7 @@
   "isEcma": false,
   "LibraryEmitters": [],
   "MetaData": {
-    "IDEVersion": "2023.6.0.92",
+    "IDEVersion": "2023.8.0.98",
   },
   "resources": [
     {"id":{"name":"s_dmg_fx_0","path":"sprites/s_dmg_fx_0/s_dmg_fx_0.yy",},},
@@ -471,6 +471,7 @@
     {"roomId":{"name":"rm_00","path":"rooms/rm_00/rm_00.yy",},},
     {"roomId":{"name":"rm_battleground","path":"rooms/rm_battleground/rm_battleground.yy",},},
   ],
+  "templateType": null,
   "TextureGroups": [
     {"resourceType":"GMTextureGroup","resourceVersion":"1.3","name":"Default","autocrop":false,"border":5,"compressFormat":"bz2","directory":"","groupParent":null,"isScaled":true,"loadType":"default","mipsToGenerate":0,"targets":-1,},
   ],

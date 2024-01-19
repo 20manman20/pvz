@@ -4,20 +4,21 @@
   "name": "o_tombstone_1x1",
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
   ],
-  "managed": true,
+  "managed": false,
   "overriddenProperties": [
-    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"o_par_iso","path":"objects/o_par_iso/o_par_iso.yy",},"propertyId":{"name":"z","path":"objects/o_par_iso/o_par_iso.yy",},"value":"-CEL_W",},
-    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"o_par_zombie","path":"objects/o_par_zombie/o_par_zombie.yy",},"propertyId":{"name":"hp_max","path":"objects/o_par_zombie/o_par_zombie.yy",},"value":"1000",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"o_par_iso","path":"objects/o_par_iso/o_par_iso.yy",},"propertyId":{"name":"z","path":"objects/o_par_iso/o_par_iso.yy",},"value":"-CEL_W*2",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"o_par_zombie","path":"objects/o_par_zombie/o_par_zombie.yy",},"propertyId":{"name":"hp_max","path":"objects/o_par_zombie/o_par_zombie.yy",},"value":"900",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"o_par_iso","path":"objects/o_par_iso/o_par_iso.yy",},"propertyId":{"name":"height_","path":"objects/o_par_iso/o_par_iso.yy",},"value":"22",},
   ],
   "parent": {
-    "name": "zombie",
-    "path": "folders/Objetos/zombie.yy",
+    "name": "Tumbas",
+    "path": "folders/Objetos/zombie/Tumbas.yy",
   },
   "parentObjectId": {
-    "name": "o_par_zombie",
-    "path": "objects/o_par_zombie/o_par_zombie.yy",
+    "name": "o_tombstone_par",
+    "path": "objects/o_tombstone_par/o_tombstone_par.yy",
   },
   "persistent": false,
   "physicsAngularDamping": 0.1,
@@ -35,8 +36,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "s_tombstone_1x1",
-    "path": "sprites/s_tombstone_1x1/s_tombstone_1x1.yy",
+    "name": "s_tombstone_1x1_00",
+    "path": "sprites/s_tombstone_1x1_00/s_tombstone_1x1_00.yy",
   },
   "spriteMaskId": {
     "name": "s_z_mask_1x1",

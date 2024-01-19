@@ -13,8 +13,8 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"315bbf71-43ba-4029-8511-c368dfb01e77",},
     {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"72fe7431-91d5-4532-a6d5-e9846bb5db2d",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"315bbf71-43ba-4029-8511-c368dfb01e77",},
     {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"d3de5a33-d402-4ddf-aaa9-976067118312",},
   ],
   "gridX": 0,
@@ -27,8 +27,8 @@
   "nineSlice": null,
   "origin": 9,
   "parent": {
-    "name": "semillas",
-    "path": "folders/Sprites/semillas.yy",
+    "name": "plantas",
+    "path": "folders/Sprites/semillas/plantas.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
@@ -56,8 +56,8 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"315bbf71-43ba-4029-8511-c368dfb01e77","path":"sprites/s_seeds_plants_color/s_seeds_plants_color.yy",},},},"Disabled":false,"id":"b59fb376-ce71-4ab9-82e3-cde8eed567dd","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"72fe7431-91d5-4532-a6d5-e9846bb5db2d","path":"sprites/s_seeds_plants_color/s_seeds_plants_color.yy",},},},"Disabled":false,"id":"626ab1f8-0011-47ae-ac6c-862803f22c3c","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"72fe7431-91d5-4532-a6d5-e9846bb5db2d","path":"sprites/s_seeds_plants_color/s_seeds_plants_color.yy",},},},"Disabled":false,"id":"626ab1f8-0011-47ae-ac6c-862803f22c3c","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"315bbf71-43ba-4029-8511-c368dfb01e77","path":"sprites/s_seeds_plants_color/s_seeds_plants_color.yy",},},},"Disabled":false,"id":"b59fb376-ce71-4ab9-82e3-cde8eed567dd","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
             {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"d3de5a33-d402-4ddf-aaa9-976067118312","path":"sprites/s_seeds_plants_color/s_seeds_plants_color.yy",},},},"Disabled":false,"id":"848987d9-92d5-419b-a424-0caf99fee866","IsCreationKey":false,"Key":2.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],

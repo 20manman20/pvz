@@ -78,7 +78,7 @@
             {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"d1825604-13ed-4532-8396-0e69e850df0a","path":"sprites/s_plant_cards_big/s_plant_cards_big.yy",},},},"Disabled":false,"id":"d19e07a3-a11b-4fcd-8e9d-dd4770684c37","IsCreationKey":false,"Key":10.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
-    "visibleRange": {"x":0.0,"y":0.0,},
+    "visibleRange": null,
     "volume": 1.0,
     "xorigin": 19,
     "yorigin": 47,

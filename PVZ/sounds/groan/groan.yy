@@ -10,7 +10,7 @@
   "bitRate": 128,
   "compression": 0,
   "conversionMode": 0,
-  "duration": 1.189218,
+  "duration": 1.184218,
   "parent": {
     "name": "Gruñidos de Zombi",
     "path": "folders/Sonidos/Gruñidos de Zombi.yy",

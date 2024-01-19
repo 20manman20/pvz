@@ -1,7 +1,7 @@
 switch (cam_angle_r) {
     case 0:
-		var _mx		= clamp((mouse_y)/12+(mouse_x)/24 - 24,5,MAP_W-5)
-		var _my		= clamp((mouse_y)/12-(mouse_x)/24 + 8,5,MAP_H-5)
+		var _mx		= clamp((mouse_y)/12+(mouse_x)/24 - 24,5,mapw-5)
+		var _my		= clamp((mouse_y)/12-(mouse_x)/24 + 8,5,maph-5)
 	
 		if map[1][# _mx+2, _my+2][0] != 0 {
 			mx	= floor(_mx)+2
@@ -32,8 +32,8 @@ switch (cam_angle_r) {
 		} 
         break
     case 90:
-		var _mx		= clamp((mouse_y)/12-(mouse_x)/24 + 48 - 32,5,MAP_W-5)
-		var _my		= clamp(-((mouse_y)/12+(mouse_x)/24) + 48 + 8,5,MAP_H-5)
+		var _mx		= clamp((mouse_y)/12-(mouse_x)/24 + 48 - 32,5,mapw-5)
+		var _my		= clamp(-((mouse_y)/12+(mouse_x)/24) + 48 + 8,5,maph-5)
 		
 		if map[1][# _mx+2, _my-2][0] != 0 {
 			mx	= floor(_mx)+2
@@ -64,8 +64,8 @@ switch (cam_angle_r) {
 		} 
         break
 	case 180:
-		var _mx		= clamp(-((mouse_y)/12+(mouse_x)/24) - 24 + 88,5,MAP_W-5)
-		var _my		= clamp(-((mouse_y)/12-(mouse_x)/24) + 8 + 8,5,MAP_H-5)
+		var _mx		= clamp(-((mouse_y)/12+(mouse_x)/24) - 24 + 88,5,mapw-5)
+		var _my		= clamp(-((mouse_y)/12-(mouse_x)/24) + 8 + 8,5,maph-5)
 		
 		if map[1][# _mx-2, _my-2][0] != 0 {
 			mx	= floor(_mx)-2
@@ -96,8 +96,8 @@ switch (cam_angle_r) {
 		} 
 		break
 	case 270:
-		var _mx		= clamp(-((mouse_y)/12-(mouse_x)/24) - 24+48,5,MAP_W-5)
-		var _my		= clamp((mouse_y)/12+(mouse_x)/24 + 8-40,5,MAP_H-5)
+		var _mx		= clamp(-((mouse_y)/12-(mouse_x)/24) - 24+48,5,mapw-5)
+		var _my		= clamp((mouse_y)/12+(mouse_x)/24 + 8-40,5,maph-5)
 		
 		if map[1][# _mx-2, _my+2][0] != 0 {
 			mx	= floor(_mx)-2

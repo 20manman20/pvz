@@ -61,7 +61,7 @@
             {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"c687773b-e92b-4331-8c10-e097370b8998","path":"sprites/s_semilla_mazo_p/s_semilla_mazo_p.yy",},},},"Disabled":false,"id":"93d8334b-e693-400a-bdf0-a6d4939c2606","IsCreationKey":false,"Key":2.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
-    "visibleRange": {"x":0.0,"y":0.0,},
+    "visibleRange": null,
     "volume": 1.0,
     "xorigin": 5,
     "yorigin": 5,

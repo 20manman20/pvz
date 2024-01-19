@@ -81,7 +81,7 @@
             {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"dce18a7f-4b5c-4a1a-be63-2d278ae7681b","path":"sprites/s_bg_clouds/s_bg_clouds.yy",},},},"Disabled":false,"id":"9d5f6e34-4e25-4934-a999-9d2f7adbca14","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
-    "visibleRange": {"x":0.0,"y":0.0,},
+    "visibleRange": null,
     "volume": 1.0,
     "xorigin": 228,
     "yorigin": 132,

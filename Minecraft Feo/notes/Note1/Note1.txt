@@ -3,8 +3,8 @@ function iso_construction(layer_name, object, z_coor) {
 
 	var tile_map	= layer_tilemap_get_id(layer_name)
 
-	for (var tx = 0; tx < MAP_W; ++tx) {
-	    for (var ty = 0; ty < MAP_H; ++ty) {
+	for (var tx = 0; tx < mapw; ++tx) {
+	    for (var ty = 0; ty < maph; ++ty) {
 			var tile_map_data		= tilemap_get(tile_map,tx,ty)
 			//formato [Sprite, Z]
 			var this_tile			= [-1,0]
@@ -17,8 +17,8 @@ function iso_construction(layer_name, object, z_coor) {
 
 	var tile_data, tile_index, tile_z
 	
-	for (var tx	= 0; tx < MAP_W; tx++) {
-		for (var ty	= 0; ty < MAP_H; ty++) {
+	for (var tx	= 0; tx < mapw; tx++) {
+		for (var ty	= 0; ty < maph; ty++) {
 			tile_data	= the_map[# tx, ty]
 
 			tile_index	= tile_data[TILE.SPRITE] 

@@ -108,7 +108,7 @@
             {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"336b3efb-2221-48d9-b146-406c8c269410","path":"sprites/s_sta_slar_s/s_sta_slar_s.yy",},},},"Disabled":false,"id":"5dd6e31e-ce3b-4869-a46e-c934665d5636","IsCreationKey":false,"Key":23.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
-    "visibleRange": {"x":0.0,"y":0.0,},
+    "visibleRange": null,
     "volume": 1.0,
     "xorigin": 9,
     "yorigin": 18,

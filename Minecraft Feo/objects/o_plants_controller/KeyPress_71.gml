@@ -1,0 +1,1 @@
+//with o_par_zombie instance_destroy()

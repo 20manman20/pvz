@@ -69,7 +69,7 @@
             {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"208de783-9599-4065-b69d-d7edc3276402","path":"sprites/spc_carta_count_z_00_00_a/spc_carta_count_z_00_00_a.yy",},},},"Disabled":false,"id":"e25a2c58-b168-4911-9128-c535faaf6edd","IsCreationKey":false,"Key":6.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
-    "visibleRange": {"x":0.0,"y":0.0,},
+    "visibleRange": null,
     "volume": 1.0,
     "xorigin": 25,
     "yorigin": 22,

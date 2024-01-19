@@ -99,7 +99,7 @@
             {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"d9913626-ef20-4ae0-bde3-12c547398b33","path":"sprites/s_semilla_z/s_semilla_z.yy",},},},"Disabled":false,"id":"71b0f233-25dd-48b1-8023-ef989be5fce7","IsCreationKey":false,"Key":17.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
-    "visibleRange": {"x":0.0,"y":0.0,},
+    "visibleRange": null,
     "volume": 1.0,
     "xorigin": 22,
     "yorigin": 5,

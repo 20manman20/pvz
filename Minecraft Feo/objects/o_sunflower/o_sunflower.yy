@@ -4,12 +4,14 @@
   "name": "o_sunflower",
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":1,"eventType":2,"isDnD":false,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":10,"eventType":7,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
   ],
   "managed": true,
   "overriddenProperties": [
     {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"o_par_iso","path":"objects/o_par_iso/o_par_iso.yy",},"propertyId":{"name":"z","path":"objects/o_par_iso/o_par_iso.yy",},"value":"-CEL_W*2",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"o_par_plant","path":"objects/o_par_plant/o_par_plant.yy",},"propertyId":{"name":"plant_id","path":"objects/o_par_plant/o_par_plant.yy",},"value":"1",},
   ],
   "parent": {
     "name": "plantas",
@@ -32,15 +34,15 @@
   "physicsShape": 1,
   "physicsShapePoints": [],
   "physicsStartAwake": true,
-  "properties": [
-    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"hp_","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"0","varType":0,},
-    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"hp_max","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"0","varType":0,},
-  ],
+  "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "s_sunflower_01",
-    "path": "sprites/s_sunflower_01/s_sunflower_01.yy",
+    "name": "s_sunflower_i_00",
+    "path": "sprites/s_sunflower_i_00/s_sunflower_i_00.yy",
   },
-  "spriteMaskId": null,
+  "spriteMaskId": {
+    "name": "s_iso_mask",
+    "path": "sprites/s_iso_mask/s_iso_mask.yy",
+  },
   "visible": true,
 }

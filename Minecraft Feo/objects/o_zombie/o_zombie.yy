@@ -3,13 +3,15 @@
   "resourceVersion": "1.0",
   "name": "o_zombie",
   "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
   ],
-  "managed": true,
+  "managed": false,
   "overriddenProperties": [
     {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"o_par_iso","path":"objects/o_par_iso/o_par_iso.yy",},"propertyId":{"name":"z","path":"objects/o_par_iso/o_par_iso.yy",},"value":"-CEL_W*5",},
-    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"o_par_iso","path":"objects/o_par_iso/o_par_iso.yy",},"propertyId":{"name":"height_","path":"objects/o_par_iso/o_par_iso.yy",},"value":"45",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"o_par_iso","path":"objects/o_par_iso/o_par_iso.yy",},"propertyId":{"name":"height_","path":"objects/o_par_iso/o_par_iso.yy",},"value":"44",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"o_par_zombie","path":"objects/o_par_zombie/o_par_zombie.yy",},"propertyId":{"name":"zombie_ind","path":"objects/o_par_zombie/o_par_zombie.yy",},"value":"0",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"o_par_zombie","path":"objects/o_par_zombie/o_par_zombie.yy",},"propertyId":{"name":"hp_max","path":"objects/o_par_zombie/o_par_zombie.yy",},"value":"200",},
   ],
   "parent": {
     "name": "zombie",
@@ -35,8 +37,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "s_pre_zombie",
-    "path": "sprites/s_pre_zombie/s_pre_zombie.yy",
+    "name": "s_zombie_w_00_full_old",
+    "path": "sprites/s_zombie_w_00_full_old/s_zombie_w_00_full_old.yy",
   },
   "spriteMaskId": {
     "name": "s_z_mask_1x1",

@@ -1,29 +1,21 @@
-var _views	= 60
-for (var i = 0; i < _views+1; ++i) {
-	var _ind	= i*VIEW_NUM/_views
-	var _x		= axis_x(x,y,45+360/VIEW_NUM*_ind)
-	var _y		= axis_y(x,y,45+360/VIEW_NUM*_ind,330)
-	
-	drawx[| _ind]		= _x
-	drawy[| _ind]		= _y + z/2
-	
-	drawdd[| _ind]		= round(axis_dd(x,y,45+360/VIEW_NUM*_ind))
+
+for (var i = 0; i < VIEW_NUM; ++i) {
+	var _val	= (360/VIEW_NUM)*i
+	var _val_r	= _val
+	drawx[i]		= x+lengthdir_x(-z/24*32,-_val+90)
+	drawy[i]		= y+lengthdir_y(-z/24*32,-_val+90)
+	drawdd[i]		= axis_dd(x,y,z,_val)
 }
 
+coorx	= drawx[cam_index]
+coory	= drawy[cam_index]
+coordd	= drawdd[cam_index]
 
-for (var i = 0; i < VIEW_NUM+1; ++i) {
-	if i mod (VIEW_NUM/_views) != 0 {
-		var _inf	= i - (i mod (VIEW_NUM/_views))
-		var _sup	= _inf + VIEW_NUM/_views
-		drawx[| i]		= lerp(drawx[| _inf],drawx[| _sup],(i-_inf)/(_sup-_inf))
-		drawy[| i]		= lerp(drawy[| _inf],drawy[| _sup],(i-_inf)/(_sup-_inf))
-		drawdd[| i]		= lerp(drawdd[| _inf],drawdd[| _sup],(i-_inf)/(_sup-_inf))
-	}
-}
+map[-z/CEL_W]
+	[# map_pos[XX],   
+		map_pos[YY]]		= [block_id,id,block_type]
 
-coorx	= drawx[| cam_index]
-coory	= drawy[| cam_index]
-coordd	= drawdd[| cam_index]
+//depth	= coordd
 
 /*
 image_blend	= make_color_hsv((	0									+256) mod 256			//150

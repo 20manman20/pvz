@@ -1,0 +1,1 @@
+room_trans(rm_win,.8)

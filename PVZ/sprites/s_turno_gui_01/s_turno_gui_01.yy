@@ -59,7 +59,7 @@
             {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"a4cf1bbd-0f16-4a00-8416-b3ffc46714fe","path":"sprites/s_turno_gui_01/s_turno_gui_01.yy",},},},"Disabled":false,"id":"2ca97d37-c3e4-4bdf-ac0c-9e43b18e682f","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
-    "visibleRange": {"x":0.0,"y":0.0,},
+    "visibleRange": null,
     "volume": 1.0,
     "xorigin": 54,
     "yorigin": 12,

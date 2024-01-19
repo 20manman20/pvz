@@ -1,0 +1,1 @@
+map[mp[ZZ]][# mp[XX],mp[YY]]	= [0,noone,-1]

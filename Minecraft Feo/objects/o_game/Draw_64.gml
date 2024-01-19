@@ -1,41 +1,28 @@
-display_set_gui_maximize(3,3)
 
-draw_set_color(c_black)
-var _cr, _cx, _cy
-_cr	= 10
-_cx	= 20
-_cy	= 240
-draw_circle(_cx,_cy,10,true)
-draw_line_width(_cx,_cy,_cx+lengthdir_x(_cr,point_direction(0,0,vecx,vecy)),_cy+lengthdir_y(_cr,point_direction(0,0,vecx,vecy)),2)
-
-//var _mx		= (mouse_y)/12+(mouse_x)/24 - 24
-//var _my		= (mouse_y)/12-(mouse_x)/24 + 8
-draw_set_valign(fa_middle)
-
-draw_set_halign(fa_left)
-draw_text(10,50,string(seed_i))
-draw_text(10,60,string(floor(mx)))
-draw_text(10,70,string(floor(my)))
-draw_text(10,80,string(floor(mz)))
-
-draw_set_alpha(.6)
-draw_rectangle(40+4,40-8,40+48,40+8,false)
-draw_set_alpha(1)
-draw_sprite(s_sun_gui,0,40,40)
-draw_set_color(c_white)
-draw_text(56,40,string(sun_amount_r))
-draw_set_color(c_black)
-
-//Dibujar macetas
-var _w	= 41
-draw_sprite(s_seeds_bg,0,512/2,288)
-for (var i = 0; i < seeds_max; ++i) {
-	var _x, _y
-	_x	= 512/2 + (i-2)*_w
-	_y	= 288-13-seed[i,pl_sd.y_]
-	draw_sprite_ext(s_seeds_pots,i, _x ,_y,1,1,0,c_white,1)
-	draw_sprite_ext(s_seeds_plants,seed[i,pl_sd.ind],_x-2,_y-2,1,1,0,c_white,1)
-	draw_sprite_part_ext(s_seeds_pots,seed[i,pl_sd.ind],0,0,40,40-40*seed[i,pl_sd.load]/plant[seed[i,pl_sd.ind],pl.load],_x-20,_y-40,1,1,c_black,.5)
-	draw_text(_x,_y-20,string(seed[i,pl_sd.cost]))
+/*
+if bol_dialogue {
+	var _x	= 24,
+		_y	= 100,
+		_w	= 100,
+		_h	= 100;
+		
+	draw_set_alpha(.7)
+	draw_set_color(c_black)
+	draw_rectangle(_x,_y,_x+_w,_y+_h,false)
+	draw_set_alpha(1)
+	draw_set_color(c_white)
+	draw_set_halign(fa_center)
+	draw_set_valign(fa_middle)
+	draw_set_font(Font4)
+	draw_text_ext_transformed(_x+_w/2,_y+_h/2,dialogue[clamp(lvl_actual+1,0,3)][dialogue_i][0],-1,_w-8,.7,.7,0)
 }
+*/
+
+display_set_gui_size(cam_w,cam_h)
+
+draw_set_alpha(trans_val)
+draw_set_color(c_white)
+draw_rectangle(0,0,cam_w,cam_h,false)
+
+draw_set_alpha(1)
 

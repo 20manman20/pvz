@@ -173,7 +173,7 @@
             {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"e58c9ae0-0a5b-4fb9-ae2d-397d614028db","path":"sprites/s_dado_spc/s_dado_spc.yy",},},},"Disabled":false,"id":"74cc5752-813c-4d7c-9934-0afdc149c4d0","IsCreationKey":false,"Key":55.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
-    "visibleRange": {"x":0.0,"y":0.0,},
+    "visibleRange": null,
     "volume": 1.0,
     "xorigin": 0,
     "yorigin": 0,
